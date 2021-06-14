@@ -1,0 +1,187 @@
+.content h2{
+    padding-top: 120px;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 900;
+}
+
+.form-register {
+    display: flex;
+    padding: 40px;
+    font-size: 20px;
+    justify-content: center;
+}
+
+.form-register-2 {
+    border: 1px solid gray;
+    padding: 40px 60px;
+}
+
+.full-name, .gender__date, .phone-address {
+    display: flex;
+}
+
+.full-name .name1, .name2,
+.gender__date .gender, .date-of-birth,
+.phone-address .phone-number, .address,
+.email input,
+.password input,
+.confirm-password input{
+    margin: 0 20px 10px 0;
+    display: grid;
+}
+
+.full-name .name1 span, .name2 span {
+    margin-bottom: 8px;
+}
+
+.full-name input,
+.gender__date .gender select, input {
+    color: gray;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid gray;
+    padding: 4px 0 2px 16px;
+}
+
+.gender__date {
+    margin: 14px 0 14px 0;
+}
+
+.gender__date .gender input, select {
+    width: 212px;
+}
+
+.email input,.password input, .confirm-password input{
+    width: 95%;
+}
+
+.check-infor {
+    margin-top: 20px; 
+    font-size: 18px;
+}
+
+.check-infor .check-row1 {
+    margin-bottom: 8px;
+}
+
+.social-register-facebook,
+.social-register-google {
+    background-color: black;
+    font-size: 18px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.register button {
+    text-align: center;
+    padding: 6px 20px;
+    margin-top: 20px;
+    font-size: 18px;
+    border: none;
+    color: white;
+    background-color: black;
+}
+
+.social-register .social-register-facebook a,
+.social-register .social-register-google a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+
+.social-register {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+}
+
+.social-register, .register {
+    text-align: center;
+}
+
+.social-register .social-register-facebook {
+    width: 200px;
+    background-color: #607fbe;
+}
+
+.social-register .social-register-google {
+    width: 200px;
+    background-color: #CC615B;
+}
+
+.social-register .social-register-facebook:hover,
+.social-register .social-register-google:hover{
+    box-shadow: 2px 2px 4px rgb(0 0 0 / 30%);
+}
+
+.return-page {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.return-page a {
+    text-decoration: none;
+    color: #607fbe;
+}
+
+.return-page a:hover {
+    color: #b33939;
+    text-decoration: underline;
+}
+@media screen and (max-width: 416px) {
+
+    .content h2{
+        font-size: 20px;
+        font-weight: 100;
+    }
+    .form-register {
+        width: 100%;
+        font-size: 14px;
+        padding-top: 40px;
+    }
+    
+    .form-register-2 {
+        border: 1px solid gray;
+        padding: 30px 24px;
+    }
+
+    
+    .check-infor {
+        margin-top: 20px; 
+        font-size: 14px;
+    }
+
+    .register,
+    .social-register-facebook,
+    .social-register-google {
+        font-size: 16px;
+    }
+    
+    .gender__date .gender input, select {
+        width: 100%;
+    }
+    .register a, 
+    .social-register .social-register-facebook a,
+    .social-register .social-register-google a {
+        font-size: 16px;
+    }
+    
+    .social-register {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 2px;
+    }
+    
+    .social-register, .register {
+        text-align: center;
+    }
+    
+    .social-register .social-register-facebook, 
+    .social-register .social-register-google {
+        width: 50%;
+        margin: 16px 4px;
+    }
+
+}
+

@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/promotion.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link rel="shorcut icon" type="image/png" href="./img/logo.jpg">
+    <title>Khuyến mại</title>
+</head>
+<body>
+<header class="header__page">
+        <div class="nav__logo">
+            <a href="./index.html"><img src="./img/Chung/LOGO_CONCEPT_NEW.png" alt="Logo Team" title="Logo"></a>
+        </div>
+        <div class="nav__list-menu">
+            <ul class="list-menu">
+                <li><a href="./index.html">TRANG CHỦ</a></li>
+                <li>
+                    <a href="#">SẢN PHẨM</a>
+                    <ul class="list-menu-drop">
+                        <li>
+                            <div>
+                                <a href="./tabban.html">BÀN</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="./tabghe.html">GHẾ</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="./tabsofa.html">SOFA</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="./tabtu.html">TỦ</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="./tabgiuong.html">GIƯỜNG</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="./tabdtt.html">ĐỒ TRANG TRÍ</a>
+                            </div>
+                        </li>
+                    </ul>
+                    </li>
+                    <li><a href="./catalog.html">CATALOGUE</a></li>
+                        <li><a href="./tabduan.html">DỰ ÁN</a></li>
+                    <li>
+                        <a href="#"  id="underline">TIN TỨC</a>
+                        <ul class="list-menu-drop">
+                            <li>
+                                <div>
+                                    <a href="./news.html">TIN TỨC</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <a href="./living-space.html">KHÔNG GIAN SỐNG</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <a href="./promotion.html">KHUYẾN MẠI</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                <li><a href="./contact.html">LIÊN HỆ</a></li>
+            </ul>
+        <div class="list-icon">
+            <div class="search-bar" title="Tìm kiếm">
+                <a href="#"><i class="fas fa-search"></i></a>
+            </div>
+            <a href="./account.html" title="Đăng nhập"><i class="far fa-user"></i></a>
+            <a href="#"><i class="far fa-heart" title="Sản phẩm yêu thích"></i></a>
+            <a href="./cart.html" class="shopping-cart-a" title="Giỏ hàng">
+                <i class="fas fa-shopping-cart"></i>
+                    <!-- <div class="square-up">
+                        <i class="far fa-caret-square-up"></i>
+                    </div> -->
+                <div class="shopping-cart">
+                    <p>Tổng:200.000VND</p>
+                    <button onclick="location.href='./cart.html'" type="button">Xem giỏ hàng</button>
+                </div>
+            </a>
+            <label for="check__hidden"></label>
+            <li>
+                <label for="check__hidden">
+                    <i class="fas fa-bars menu-bar"></i>
+                </label>
+            </li>
+        </div>
+    </div>
+</header>
+    
+    <input type="checkbox" name="" id="check__hidden">
+        <div class="sidebar">
+            <ul class="list-menu-mobile">
+            <li><a href="./index.html">Trang Chủ</a></li>
+            <li>
+                <a href="#">Sản Phẩm</a>
+                <label for="check_menu_nw" class="check_menu-drop"><i class="fas fa-chevron-down"></i></label>
+                    <input type="checkbox" id="check_menu_nw">
+                <ul class="list-menu-drop-mobile">
+                    <li>
+                        <div>
+                            <a href="./news.html">Bàn</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="./living-space.html">Ghê</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="./promotion.html">Sofa</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="./promotion.html">Tủ</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="./promotion.html">Giường</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="./promotion.html">Đồ tang trí</a>
+                        </div>
+                    </li>
+                </ul>
+                </li>
+                <li><a href="./catalog.html">Catalogue</a></li>
+                <li><a href="./tabduan.html">Dự án</a></li>
+                <li>
+                    <a href="#">Tin Tức</a>
+                    <label for="check_menu" class="check_menu-drop"><i class="fas fa-chevron-down"></i></label>
+                    <input type="checkbox" id="check_menu">
+                    <ul class="list-menu-drop-mobile">
+                        <li>
+                            <div>
+                                <a href="./news.html">Tin Tức</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="./living-space.html">Không Gian Sống</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="./promotion.html">Khuyến Mại</a>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="./contact.html">Liên Hệ</a></li>
+            </ul>
+        </div>
+    </header>
+
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+        <img src="./img/Chung/SLIDE_1.jpeg" style="width:100%">
+        <div class="text"><span>GIẢM GIÁ 5% KHI MUA SOFA</span></div>
+        <div class="mySLides__buy">
+            <a href="./tabban.html">MUA NGAY</a>
+        </div>
+    </div>
+        
+    <div class="mySlides fade">
+        <img src="./img/Chung/SLIDE_2.jpeg" style="width:100%">
+        <div class="text"><span>GIẢM ĐẾN 20% KHI MUA THEO COMBO</span> </div>
+        <div class="mySLides__buy">
+            <a href="./tabban.html">MUA NGAY</a>
+        </div>
+    </div>
+        
+    <div class="mySlides fade">
+        <img src="./img/Chung/SLIDE_3.jpeg" style="width:100%">
+        <div class="text"><span>GIẢM 20% KHI MUA THEO BỘ</span></div>
+        <div class="mySLides__buy">
+            <a href="./tabban.html">MUA NGAY</a>
+        </div>
+    </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        
+</div>
+    <br>
+        
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+
+    <script src="./Javascript/main.js"></script>
+    <!-- ---------------------------------------------------------------------- -->
+
+    <!-- <div class="search-bar-pro">
+        <div class="search-bar_nw">
+            <span>Danh mục</span>
+            <select name="" id="sort-product">
+                <option value="">SOFA</option>
+                <option value="">Bàn</option>
+                <option value="">Ghế</option>
+                <option value="">Giường</option>
+            </select>
+        </div>
+
+        <div class="search-bar_nw">
+            <span>SOFA</span>
+            <select name="" id="sort-product">
+                <option value="">SOFA đơn</option>
+                <option value="">SOFA 2 chỗ</option>
+                <option value="">SOFA 3 chỗ</option>
+                <option value="">SOFA 4 chỗ</option>
+            </select>
+        </div>
+
+        <div class="search-bar_nw">
+            <span>Chất liệu</span>
+            <select name="" id="sort-product">
+                <option value="">Vải</option>
+                <option value="">Da</option>
+            </select>
+        </div>
+
+        <div class="search-bar_nw">
+            <span>Màu sắc</span>
+            <select name="Màu sắc" id="sort-product" title="Màu sắc">
+                <option value="">Xanh</option>
+                <option value="">Đỏ</option>
+                <option value="">Nâu</option>
+                <option value="">Xám</option>
+                <option value="">Vàng</option>
+            </select>
+        </div>
+
+        <div class="search-bar_nw search-bar__return">
+            <div class="return">
+                <i class="fas fa-undo-alt"></i>
+                <p>Thiết lập lại</p>
+            </div>
+            
+            <div class="search-bar-nw">
+                <i class="fas fa-search"></i>
+            </div>
+        </div>
+    </div> -->
+
+    <div class="product-promotion">
+        <h1>SOFA GIẢM GIÁ</h1>
+            <div class="list-product-promotion">
+                <div class="product-promotion-infor-1">
+                    <div class="img">
+                        <img src="./img/KhuyenMai/SOFA_SUNDERLAND.png" alt="Sản phẩm 01">
+                    </div>
+                    <div class="div-text">
+                        <div class="tiltle-product">
+                            <h3 class="tiltle">Sunderland</h3>
+                            <p class="color">3 màu sắc</p>
+                            <p class="infor">Sofa Sunderland 3 chỗ</p>
+                        </div>
+                        <div class="price">
+                                <span>
+                                    Giá: 20.000.000₫ / <del>21.000.000₫</del> 
+                                </span>
+                                <span class="like">
+                                    <i class="far fa-heart"></i>
+                                </span>
+                        </div>
+                    </div>
+                    <div class="sale-off">
+                        <img src="./img/ICON_SALE.png" alt="">
+                    </div>
+                    <div class="button-buy">
+                        <a href="#">Mua ngay</a>
+                    </div>     
+                </div>
+
+                <div class="product-promotion-infor-1">
+                    <div class="img">
+                        <img src="./img/KhuyenMai/SOFA_ALEXXSANDRA.png" alt="Sản phẩm 01">
+                    </div>
+                    <div class="div-text">
+                        <div class="tiltle-product">
+                            <h3 class="tiltle">Alexandra</h3>
+                            <p class="color">1 màu sắc</p>
+                            <p class="infor">Sofa Alexandra 3 chỗ</p>
+                        </div>
+                        <div class="price">
+                                <span>
+                                    Giá: 10.000.000₫ / <del>15.000.000</del>
+                                </span>
+                                <span class="like">
+                                    <i class="far fa-heart"></i>
+                                </span>
+                        </div>
+                    </div>
+                    <div class="sale-off">
+                        <img src="./img/ICON_SALE.png" alt="">
+                    </div>
+                    <div class="button-buy">
+                        <a href="#">Mua ngay</a>
+                    </div>     
+                </div>
+
+                <div class="product-promotion-infor-1">
+                    <div class="img">
+                        <img src="./img/KhuyenMai/SOFA_INGE.png" alt="Sản phẩm 01">
+                    </div>
+                    <div class="div-text">
+                        <div class="tiltle-product">
+                            <h3 class="tiltle">Inge</h3>
+                            <p class="color">6 màu sắc</p>
+                            <p class="infor">Sofa Inge 2.5 chỗ</p>
+                        </div>
+                        <div class="price">
+                                <span>
+                                    Giá: 20.000.000₫ / <del>45.000.000₫</del> 
+                                </span>
+                                <span class="like">
+                                    <i class="far fa-heart"></i>
+                                </span>
+                        </div>
+                    </div>
+                    <div class="sale-off">
+                        <img src="./img/ICON_SALE.png" alt="">
+                    </div>
+                    <div class="button-buy">
+                        <a href="#">Mua ngay</a>
+                    </div>     
+                </div>
+
+                <div class="product-promotion-infor-1">
+                    <div class="img">
+                        <img src="./img/KhuyenMai/SOFA_IDAHO.png" alt="Sản phẩm 01">
+                    </div>
+                    <div class="div-text">
+                        <div class="tiltle-product">
+                            <h3 class="tiltle">Idaho</h3>
+                            <p class="color">3 màu sắc</p>
+                            <p class="infor">Sofa Idaho 3 chỗ</p>
+                        </div>
+                        <div class="price">
+                                <span>
+                                    Giá: 12.000.000₫ / <del>22.000.000₫</del> 
+                                </span>
+                                <span class="like">
+                                    <i class="far fa-heart"></i>
+                                </span>
+                        </div>
+                    </div>
+                    <div class="sale-off">
+                        <img src="./img/ICON_SALE.png" alt="">
+                    </div>
+                    <div class="button-buy">
+                        <a href="#">Mua ngay</a>
+                    </div>     
+                </div>
+
+                <div class="product-promotion-infor-1">
+                    <div class="img">
+                        <img src="./img/KhuyenMai/SOFA_SAGA.png" alt="Sản phẩm 01">
+                    </div>
+                    <div class="div-text">
+                        <div class="tiltle-product">
+                            <h3 class="tiltle">Saga</h3>
+                            <p class="color">1 màu sắc</p>
+                            <p class="infor">Sofa Saga 1 chỗ</p>
+                        </div>
+                        <div class="price">
+                                <span>
+                                    Giá: 12.000.000₫ / <del>12.300.000</del>
+                                </span>
+                                <span class="like">
+                                    <i class="far fa-heart"></i>
+                                </span>
+                        </div>
+                    </div>
+                    <div class="sale-off">
+                        <img src="./img/ICON_SALE.png" alt="">
+                    </div>
+                    <div class="button-buy">
+                        <a href="#">Mua ngay</a>
+                    </div>     
+                </div>
+
+                <div class="product-promotion-infor-1">
+                    <div class="img">
+                        <img src="./img/KhuyenMai/SOFA_MONGOMERY.png" alt="Sản phẩm 01">
+                    </div>
+                    <div class="div-text">
+                        <div class="tiltle-product">
+                            <h3 class="tiltle">Môngmery</h3>
+                            <p class="color">6 màu sắc</p>
+                            <p class="infor">Sofa góc Mongomery</p>
+                        </div>
+                        <div class="price">
+                                <span>
+                                    Giá: 20.000.000₫ / <del>25.000.000₫</del> 
+                                </span>
+                                <span class="like">
+                                    <i class="far fa-heart"></i>
+                                </span>
+                        </div>
+                    </div>
+                    <div class="sale-off">
+                        <img src="./img/ICON_SALE.png" alt="">
+                    </div>
+                    <div class="button-buy">
+                        <a href="#">Mua ngay</a>
+                    </div>     
+                </div>
+
+                <div class="product-promotion-infor-1">
+                    <div class="img">
+                        <img src="./img/KhuyenMai/SOFA_PARIS.png" alt="Sản phẩm 01">
+                    </div>
+                    <div class="div-text">
+                        <div class="tiltle-product">
+                            <h3 class="tiltle">Paris</h3>
+                            <p class="color">3 màu sắc</p>
+                            <p class="infor">Sofa Paris</p>
+                        </div>
+                        <div class="price">
+                                <span>
+                                    Giá: 20.000.000₫ / <del>21.000.000₫</del> 
+                                </span>
+                                <span class="like">
+                                    <i class="far fa-heart"></i>
+                                </span>
+                        </div>
+                    </div>
+                    <div class="sale-off">
+                        <img src="./img/ICON_SALE.png" alt="">
+                    </div>
+                    <div class="button-buy">
+                        <a href="#">Mua ngay</a>
+                    </div>     
+                </div>
+
+                <div class="product-promotion-infor-1">
+                    <div class="img">
+                        <img src="./img/KhuyenMai/SOFA_ALINGTON.png" alt="Sản phẩm 01">
+                    </div>
+                    <div class="div-text">
+                        <div class="tiltle-product">
+                            <h3 class="tiltle">Alington</h3>
+                            <p class="color">8 màu sắc</p>
+                            <p class="infor">Sofa Alington 1 chỗ</p>
+                        </div>
+                        <div class="price">
+                                <span>
+                                    Giá: 9.999.999₫ / <del>19.000.000</del>
+                                </span>
+                                <span class="like">
+                                    <i class="far fa-heart"></i>
+                                </span>
+                        </div>
+                    </div>
+                    <div class="sale-off">
+                        <img src="./img/ICON_SALE.png" alt="">
+                    </div>
+                    <div class="button-buy">
+                        <a href="#">Mua ngay</a>
+                    </div>     
+                </div>
+
+                <div class="product-promotion-infor-1">
+                    <div class="img">
+                        <img src="./img/KhuyenMai/SOFA_CONLEY.png" alt="Sản phẩm 01">
+                    </div>
+                    <div class="div-text">
+                        <div class="tiltle-product">
+                            <h3 class="tiltle">Conley</h3>
+                            <p class="color">2 màu sắc</p>
+                            <p class="infor">Sofa Conley 1 chỗ</p>
+                        </div>
+                        <div class="price">
+                                <span>
+                                    Giá: 18.888.888₫ / <del>22.220.000₫</del> 
+                                </span>
+                                <span class="like">
+                                    <i class="far fa-heart"></i>
+                                </span>
+                        </div>
+                    </div>
+                    <div class="sale-off">
+                        <img src="./img/ICON_SALE.png" alt="">
+                    </div>
+                    <div class="button-buy">
+                        <a href="#">Mua ngay</a>
+                    </div>     
+                </div>
+            </div>
+
+            <div class="all-product">
+                <span><a href="./tabsofa.html">Tất cả sản phẩm</a></span>
+            </div>
+
+            <h1>GIƯỜNG KHUYẾN MẠI</h1>
+            <div class="list-product-promotion">
+                
+                <div class="product-promotion-infor-1">
+                    <div class="img">
+                        <img src="./img/KhuyenMai/GIUONG_ALVA.png" alt="Sản phẩm 01">
+                    </div>
+                    <div class="div-text">
+                        <div class="tiltle-product">
+                            <h3 class="tiltle">Alva</h3>
+                            <p class="color">3 màu sắc</p>
+                            <p class="infor">Giường ngủ cao cấp Alva</p>
+                        </div>
+                        <div class="price">
+                                <span>
+                                    Giá: 40.000.000₫ / <del>41.000.000₫</del> 
+                                </span>
+                                <span class="like">
+                                    <i class="far fa-heart"></i>
+                                </span>
+                        </div>
+                    </div>
+                    <div class="sale-off">
+                        <img src="./img/ICON_SALE.png" alt="">
+                    </div>
+                    <div class="button-buy">
+                        <a href="#">Mua ngay</a>
+                    </div>     
+                </div>
+
+                <div class="product-promotion-infor-1">
+                    <div class="img">
+                        <img src="./img/KhuyenMai/GIUONG_BONITA.png" alt="Sản phẩm 01">
+                    </div>
+                    <div class="div-text">
+                        <div class="tiltle-product">
+                            <h3 class="tiltle">Bonita</h3>
+                            <p class="color">1 màu sắc</p>
+                            <p class="infor">Giường Bonita</p>
+                        </div>
+                        <div class="price">
+                                <span>
+                                    Giá: 14.000.000₫ / <del>19.000.000</del>
+                                </span>
+                                <span class="like">
+                                    <i class="far fa-heart"></i>
+                                </span>
+                        </div>
+                    </div>
+                    <div class="sale-off">
+                        <img src="./img/ICON_SALE.png" alt="">
+                    </div>
+                    <div class="button-buy">
+                        <a href="#">Mua ngay</a>
+                    </div>     
+                </div>
+
+                <div class="product-promotion-infor-1">
+                    <div class="img">
+                        <img src="./img/KhuyenMai/GIUONG_ZENVO.png" alt="Sản phẩm 01">
+                    </div>
+                    <div class="div-text">
+                        <div class="tiltle-product">
+                            <h3 class="tiltle">Zenvo</h3>
+                            <p class="color">1 màu sắc</p>
+                            <p class="infor">Giường Zenvo</p>
+                        </div>
+                        <div class="price">
+                                <span>
+                                    Giá: 19.999.999₫ / <del>24.000.000₫</del> 
+                                </span>
+                                <span class="like">
+                                    <i class="far fa-heart"></i>
+                                </span>
+                        </div>
+                    </div>
+                    <div class="sale-off">
+                        <img src="./img/ICON_SALE.png" alt="">
+                    </div>
+                    <div class="button-buy">
+                        <a href="#">Mua ngay</a>
+                    </div>     
+                </div>
+            </div>
+            <div class="all-product">
+                <span><a href="./tabgiuong.html">Tất cả sản phẩm</a></span>
+            </div>
+        </div>
+
+
+<!-- ---------------------------------------------------------------------- -->
+<footer class="footer">
+    <div class="row1">
+        <a href="./about-us.html">Giới thiệu</a>
+        <a href="./contact.html">Cửa hàng</a>
+        <a href="./tabdvkh.html">Dịch vụ khách hàng</a>
+    </div>
+
+    <div class="row2">
+        <a href="./chinhsachbaohanh.html">Chính sách bảo hành</a>
+        <a href="#">Bảo hành điện tử</a>
+        <a href="#">Hỏi đáp</a>
+        <a href="">Tuyển dụng</a>
+    </div>
+
+    <div class="social">
+        <a href="https://www.facebook.com/" class="social-face"><i class="fab fa-facebook-square"></i></a>
+        <a href="https://www.instagram.com/" class="social-insta"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.youtube.com/" class="social-youtube"><i class="fab fa-youtube"></i></a>
+    </div>
+
+    <div class="copyright">
+        <span>© HTN Concept 2021</span> 
+    </div>
+
+    <div class="div-backtop">
+        <div class="backtop" id="backtop" onclick="goToTop()">
+            <i class="fas fa-angle-up"></i>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

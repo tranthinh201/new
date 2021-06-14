@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đồ trang trí</title>
+    <link rel="stylesheet" href="./css/tabdtt.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header__page">
+        <div class="nav__logo">
+            <a href="./index.html"><img src="./img/Chung/LOGO_CONCEPT_NEW.png" alt="Logo Team" title="Logo"></a>
+        </div>
+        <div class="nav__list-menu">
+            <ul class="list-menu">
+                <li><a href="./index.html">TRANG CHỦ</a></li>
+                <li>
+                    <a href="#"  id="underline">SẢN PHẨM</a>
+                    <ul class="list-menu-drop">
+                        <li>
+                            <div>
+                                <a href="./tabban.html">BÀN</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="./tabghe.html">GHẾ</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="./tabsofa.html">SOFA</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="./tabtu.html">TỦ</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="./tabgiuong.html">GIƯỜNG</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="./tabdtt.html">ĐỒ TRANG TRÍ</a>
+                            </div>
+                        </li>
+                    </ul>
+                    </li>
+                    <li><a href="./catalog.html">CATALOGUE</a></li>
+                        <li><a href="./tabduan.html">DỰ ÁN</a></li>
+                    <li>
+                        <a href="#">TIN TỨC</a>
+                        <ul class="list-menu-drop">
+                            <li>
+                                <div>
+                                    <a href="./news.html">TIN TỨC</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <a href="./living-space.html">KHÔNG GIAN SỐNG</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <a href="./promotion.html">KHUYẾN MẠI</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                <li><a href="./contact.html">LIÊN HỆ</a></li>
+            </ul>
+        <div class="list-icon">
+            <div class="search-bar" title="Tìm kiếm">
+                <a href="#"><i class="fas fa-search"></i></a>
+            </div>
+            <a href="./account.html" title="Đăng nhập"><i class="far fa-user"></i></a>
+            <a href="#"><i class="far fa-heart" title="Sản phẩm yêu thích"></i></a>
+            <a href="./cart.html" class="shopping-cart-a" title="Giỏ hàng">
+                <i class="fas fa-shopping-cart"></i>
+                    <!-- <div class="square-up">
+                        <i class="far fa-caret-square-up"></i>
+                    </div> -->
+                <div class="shopping-cart">
+                    <p>Tổng:200.000VND</p>
+                    <button onclick="location.href='./cart.html'" type="button">Xem giỏ hàng</button>
+                </div>
+            </a>
+            <label for="check__hidden"></label>
+            <li>
+                <label for="check__hidden">
+                    <i class="fas fa-bars menu-bar"></i>
+                </label>
+            </li>
+        </div>
+    </div>
+</header>
+    
+    <input type="checkbox" name="" id="check__hidden">
+        <div class="sidebar">
+            <ul class="list-menu-mobile">
+            <li><a href="./index.html">Trang Chủ</a></li>
+            <li>
+                <a href="#">Sản Phẩm</a>
+                <label for="check_menu_nw" class="check_menu-drop"><i class="fas fa-chevron-down"></i></label>
+                    <input type="checkbox" id="check_menu_nw">
+                <ul class="list-menu-drop-mobile">
+                    <li>
+                        <div>
+                            <a href="./news.html">Bàn</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="./living-space.html">Ghê</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="./promotion.html">Sofa</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="./promotion.html">Tủ</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="./promotion.html">Giường</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="./promotion.html">Đồ tang trí</a>
+                        </div>
+                    </li>
+                </ul>
+                </li>
+                <li><a href="./catalog.html">Catalogue</a></li>
+                <li><a href="./tabduan.html">Dự án</a></li>
+                <li>
+                    <a href="#">Tin Tức</a>
+                    <label for="check_menu" class="check_menu-drop"><i class="fas fa-chevron-down"></i></label>
+                    <input type="checkbox" id="check_menu">
+                    <ul class="list-menu-drop-mobile">
+                        <li>
+                            <div>
+                                <a href="./news.html">Tin Tức</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="./living-space.html">Không Gian Sống</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="./promotion.html">Khuyến Mại</a>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="./contact.html">Liên Hệ</a></li>
+            </ul>
+        </div>
+    </header>
+    
+<div class="banner">
+    <div class="div-text">
+        <h1>Đồ trang Trí</h1>
+    </div>
+</div>
+<div class="filter" >
+    <div class="menu-filter">
+        <div> Danh mục </div>
+        <select class="drop-op">                                    
+            <option value=""> Đồ Trang Trí </option>
+            <option value="" > Bàn </option>
+            <option value="">Ghế</option>
+            <option value="">Giường</option>
+            <option value="">Tủ</option>
+            <option value="">Sofa</option>
+            <option value="">Sale Off</option>
+            <option value="">Outlet</option>
+        </select>
+    </div>
+     <div class="menu-filter">
+        <div>Đồ trang trí</div>
+        <select class="drop-op">                                    
+            <option value=""> Thảm </option>
+            <option value="">Đèn trang trí</option>
+            <option value="">Tranh</option>
+            <option value="">Gương</option>
+            <option value="">Gối & Khăn</option>
+            <option value="">Nến & Chân Nến</option>
+            <option value="">Khác</option>
+        </select>
+
+    </div>
+     <div class="menu-filter">
+        <div> Chất liệu</div>
+        <select class="drop-op">                                    
+            <option value=""> Vải  </option>
+            <option value=""> Len</option>
+            <option value="">Da</option>
+            <option value="">Linen</option>
+            <option value="">Gỗ</option>
+            <option value="">Gốm</option>
+            <option value="">Paraffin</option>
+            <option value="">Khác</option>
+        </select>
+    </div>
+    <div class="menu-filter">
+        <div> Màu sắc</div>
+        <select class="drop-op">                                    
+            <option value=""> Nâu </option>
+            <option value=""> Trắng </option>
+            <option value="">Đen</option>
+            <option value="">Xám</option>
+            <option value="">Kem</option>
+            <option value="">Đỏ </option>
+            <option value="">Xanh Lá</option>
+            <option value="">Họa Tiết</option>
+            <option value="">Khác</option>
+        </select>
+    </div>
+    <div class="menu-filter2">
+        <div class="icon-reload">
+                <a href="#"><i class="fas fa-undo-alt"></i></a>
+            <div> Thiết Lập Lại </div>
+        </div>
+        <div class="icon-tim">
+            <button><a href="#"><i class="fas fa-search"></i></a></button>
+        </div>
+        
+    </div>
+</div>
+<div class="main">
+        <div class="list-sofa1">
+            <table class="item">
+                <tr>
+                    <td><img src="img/tabdotrangtri/anhgoi1.png" alt="" srcset=""></td>
+                    <td><img src="img/tabdotrangtri/anhgoi2.png" alt="" srcset=""></td>
+                    <td><img src="img/tabdotrangtri/anhgoi3.png" alt="" srcset=""><td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="namesf">Gối cotton </p>
+                        <p class="title">Gối cotton màu xanh</p> 
+                        <div class="main-icon">
+                            <p class="price">2.000.000đ </p>
+                            <a href="#"><i class="far fa-heart"></i></a>
+                            
+                        </div>
+                    </td>
+                    <td>
+                        <p class="namesf" >Gối vải</p>
+                        <p class="title">Gối vải màu tự nhiên</p>
+                        
+                        <div class="main-icon">
+                            <p class="price">3.400.000đ</p>
+                            <a href="#"><i class="far fa-heart"></i></a>
+                        </div>
+                    </td>
+                    <td>
+                        <p class="namesf">Gối da</p>
+                        <p class="title">Gối da màu nâu</p>
+                        
+                        <div class="main-icon">
+                            <p class="price">2.700.000đ</p>
+                            <a href="#"><i class="far fa-heart"></i></a>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="list-sofa1">
+            <table class="item">
+                <tr>
+                    <td><img src="img/tabdotrangtri/anhgoi4.png" alt="" srcset=""></td>
+                    <td><img src="img/tabdotrangtri/anhgoi5.png" alt="" srcset=""></td>
+                    <td><img src="img/tabdotrangtri/anhgoi6.png" alt="" srcset=""><td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="namesf">Gối cotton</p>
+                        <p class="title">Gối cotton màu tự nhiên</p>
+                        
+                        <div class="main-icon">
+                            <p class="price">3.000.000đ</p>
+                            <a href="#"><i class="far fa-heart"></i></a>
+                        </div>
+                    </td>
+                    <td>
+                        <p class="namesf" >Gối cotton</p>
+                        <p class="title">Gối cotton màu vàng họa tiết</p>
+                        
+                        <div class="main-icon">
+                            <p class="price">3.100.000đ</p>
+                            <a href="#"><i class="far fa-heart"></i></a>
+                        </div>
+                    </td>
+                    <td>
+                        <p class="namesf">Gối vải</p>
+                        <p class="title">Gối vải màu vàng</p>
+                        
+                        <div class="main-icon">
+                            <p class="price">5.000.000đ</p>
+                            <a href="#"><i class="far fa-heart"></i></a>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="list-sofa1">
+            <table class="item">
+                <tr>
+                    <td><img src="img/tabdotrangtri/anhgoi7.png" alt="" srcset=""></td>
+                    <td><img src="img/tabdotrangtri/anhgoi8.png" alt="" srcset=""></td>
+                    <td><img src="img/tabdotrangtri/anhgoi9.png" alt="" srcset=""><td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="namesf">Gối cotton</p>
+                        <p class="title">Gối cotton màu nâu trang trí 4 góc</p>
+                        
+                        <div class="main-icon">
+                            <p class="price">2.800.000đ</p>
+                            <a href="#"><i class="far fa-heart"></i></a>
+                        </div>
+                    </td>
+                    <td>
+                        <p class="namesf" >Gối cotton</p>
+                        <p class="title">Gối cotton màu xám trang trí viền </p>
+                        
+                        <div class="main-icon">
+                            <p class="price">2.500.000đ</p>
+                            <a href="#"><i class="far fa-heart"></i></a>
+                        </div>
+                    </td>
+                    <td>
+                        <p class="namesf">Gối cotton</p>
+                        <p class="title">Gối cotton màu nâu in hoa văn</p>
+                        
+                        <div class="main-icon">
+                            <p class="price">2.500.000đ</p>
+                            <a href="#"><i class="far fa-heart"></i></a>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="list-sofa1">
+            <table class="item">
+                <tr>
+                    <td><img src="img/tabdotrangtri/anhgoi10.png" alt="" srcset=""></td>
+                    <td><img src="img/tabdotrangtri/anhgoi11.png" alt="" srcset=""></td>
+                    <td><img src="img/tabdotrangtri/anhgoi12.png" alt="" srcset=""><td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="namesf">Gối cotton</p>
+                        <p class="title">Gối cotton màu nâu </p>
+                        
+                        <div class="main-icon">
+                            <p class="price">2.500.000đ</p>
+                            <a href="#"><i class="far fa-heart"></i></a>
+                        </div>
+                    </td>
+                    <td>
+                        <p class="namesf" >Gối cotton</p>
+                        <p class="title">Gối cotton màu nâu in hoa văn</p>
+                        
+                        <div class="main-icon">
+                            <p class="price"> 2.400.000đ</p>
+                            <a href="#"><i class="far fa-heart"></i></a>
+                        </div>
+                    </td>
+                    <td>
+                        <p class="namesf">Gối cotton</p>
+                        <p class="title">Gối cotton màu xám</p>
+                        
+                        <div class="main-icon">
+                            <p class="price">2.400.000đ</p>
+                            <a href="#"><i class="far fa-heart"></i></a>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="list-sofa1">
+            <table class="item">
+                <tr>   
+                    <td><img src="img/tabdotrangtri/anhgoi13.png" alt="" srcset=""></td>
+                    <td><img src="img/tabdotrangtri/anhgoi14.png" alt="" srcset=""></td>
+                    <td><img src="img/tabdotrangtri/anhgoi15.png" alt="" srcset=""><td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="namesf">Gối cotton</p>
+                        <p class="title">Gối cotton màu đỏ</p>
+                        <p class="price">2.000.000đ</p>
+                        <div class="main-icon">
+                            <a href="#"><i class="far fa-heart"></i></a>
+                        </div>
+                        
+                    </td>
+                    <td>
+                        <p class="namesf" >Gối cotton</p>
+                        <p class="title">Gối cotton màu xám</p>
+                        
+                        <div class="main-icon">
+                            <p class="price"> 2.000.000đ</p> 
+                            <a href="#"><i class="far fa-heart"></i></a>
+                        </div>
+                    </td>
+                    <td>
+                        <p class="namesf">Ball</p>
+                        <p class="title">Đèn trần trang trí Ball</p>
+                        
+                        <div class="main-icon">
+                            <p class="price">3.600.000đ</p>
+                            <a href="#"><i class="far fa-heart"></i></a>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+
+        </div>
+        <div class="text-center">
+            <a href="#" class="btn">TẢI THÊM</a>
+        </div>
+    </div>
+    
+    <footer class="footer">
+        <div class="row1">
+            <a href="./about-us.html">Giới thiệu</a>
+            <a href="./contact.html">Cửa hàng</a>
+            <a href="./tabdvkh.html">Dịch vụ khách hàng</a>
+        </div>
+
+        <div class="row2">
+            <a href="./chinhsachbaohanh.html">Chính sách bảo hành</a>
+            <a href="#">Bảo hành điện tử</a>
+            <a href="#">Hỏi đáp</a>
+            <a href="">Tuyển dụng</a>
+        </div>
+
+        <div class="social">
+            <a href="https://www.facebook.com/" class="social-face"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://www.instagram.com/" class="social-insta"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com/" class="social-youtube"><i class="fab fa-youtube"></i></a>
+        </div>
+
+        <div class="copyright">
+            <span>© HTN Concept 2021</span> 
+        </div>
+
+        <div class="div-backtop">
+            <div class="backtop" id="backtop" onclick="goToTop()">
+                <i class="fas fa-angle-up"></i>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

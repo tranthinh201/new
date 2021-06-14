@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ghế</title>
+    <link rel="stylesheet" href="./css/tabghe.css">
+    <!-- <link rel="stylesheet" href="./css/style.css"> -->
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="header__page">
+        <div class="nav__logo">
+            <a href="./index.html"><img src="./img/Chung/LOGO_CONCEPT_NEW.png" alt="Logo Team" title="Logo"></a>
+        </div>
+        <div class="nav__list-menu">
+            <ul class="list-menu">
+                <li><a href="./index.html">TRANG CHỦ</a></li>
+                <li>
+                    <a href="#"  id="underline">SẢN PHẨM</a>
+                    <ul class="list-menu-drop">
+                        <li>
+                            <div>
+                                <a href="./tabban.html">BÀN</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="./tabghe.html">GHẾ</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="./tabsofa.html">SOFA</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="./tabtu.html">TỦ</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="./tabgiuong.html">GIƯỜNG</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="./tabdtt.html">ĐỒ TRANG TRÍ</a>
+                            </div>
+                        </li>
+                    </ul>
+                    </li>
+                    <li><a href="./catalog.html">CATALOGUE</a></li>
+                        <li><a href="./tabduan.html">DỰ ÁN</a></li>
+                    <li>
+                        <a href="#">TIN TỨC</a>
+                        <ul class="list-menu-drop">
+                            <li>
+                                <div>
+                                    <a href="./news.html">TIN TỨC</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <a href="./living-space.html">KHÔNG GIAN SỐNG</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <a href="./promotion.html">KHUYẾN MẠI</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                <li><a href="./contact.html">LIÊN HỆ</a></li>
+            </ul>
+        <div class="list-icon">
+            <div class="search-bar" title="Tìm kiếm">
+                <a href="#"><i class="fas fa-search"></i></a>
+            </div>
+            <a href="./account.html" title="Đăng nhập"><i class="far fa-user"></i></a>
+            <a href="#"><i class="far fa-heart" title="Sản phẩm yêu thích"></i></a>
+            <a href="./cart.html" class="shopping-cart-a" title="Giỏ hàng">
+                <i class="fas fa-shopping-cart"></i>
+                    <!-- <div class="square-up">
+                        <i class="far fa-caret-square-up"></i>
+                    </div> -->
+                <div class="shopping-cart">
+                    <p>Tổng:200.000VND</p>
+                    <button onclick="location.href='./cart.html'" type="button">Xem giỏ hàng</button>
+                </div>
+            </a>
+            <label for="check__hidden"></label>
+            <li>
+                <label for="check__hidden">
+                    <i class="fas fa-bars menu-bar"></i>
+                </label>
+            </li>
+        </div>
+    </div>
+</header>
+    
+    <input type="checkbox" name="" id="check__hidden">
+        <div class="sidebar">
+            <ul class="list-menu-mobile">
+            <li><a href="./index.html">Trang Chủ</a></li>
+            <li>
+                <a href="#">Sản Phẩm</a>
+                <label for="check_menu_nw" class="check_menu-drop"><i class="fas fa-chevron-down"></i></label>
+                    <input type="checkbox" id="check_menu_nw">
+                <ul class="list-menu-drop-mobile">
+                    <li>
+                        <div>
+                            <a href="./news.html">Bàn</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="./living-space.html">Ghê</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="./promotion.html">Sofa</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="./promotion.html">Tủ</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="./promotion.html">Giường</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="./promotion.html">Đồ tang trí</a>
+                        </div>
+                    </li>
+                </ul>
+                </li>
+                <li><a href="./catalog.html">Catalogue</a></li>
+                <li><a href="./tabduan.html">Dự án</a></li>
+                <li>
+                    <a href="#">Tin Tức</a>
+                    <label for="check_menu" class="check_menu-drop"><i class="fas fa-chevron-down"></i></label>
+                    <input type="checkbox" id="check_menu">
+                    <ul class="list-menu-drop-mobile">
+                        <li>
+                            <div>
+                                <a href="./news.html">Tin Tức</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="./living-space.html">Không Gian Sống</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="./promotion.html">Khuyến Mại</a>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="./contact.html">Liên Hệ</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="banner">
+        <div class="div-text">
+            <h1>ghế</h1>
+        </div>
+    </div>
+    <div class="filter" >
+        <div class="menu-filter">
+            <div> Danh mục </div>
+            <select class="drop-op">                                    
+                <option value=""> Ghế </option>
+                <option value="" > Sofa </option>
+                <option value="">Bàn</option>
+                <option value="">Giường</option>
+                <option value="">Tủ</option>
+                <option value="">Đồ Trang Trí</option>
+                <option value="">Sale Off</option>
+                <option value="">Outlet</option>
+            </select>
+        </div>
+         <div class="menu-filter">
+            <div> Ghế</div>
+            <select class="drop-op">                                    
+                <option value=""> Ghế thư giãn </option>
+                <option value=""> Ghế ăn  </option>
+                <option value=""> Ghế đôn</option>
+                <option value="">Ghế bar</option>
+            </select>
+
+        </div>
+         <div class="menu-filter">
+            <div> Chất liệu</div>
+            <select class="drop-op">                                    
+                <option value=""> Kính  </option>
+                <option value=""> Đá </option>
+                <option value="">Kim Loại</option>
+                <option value="">Gỗ</option>
+            </select>
+        </div>
+        <div class="menu-filter">
+            <div> Màu sắc</div>
+            <select class="drop-op">                                    
+                <option value=""> Nâu </option>
+                <option value=""> Trắng </option>
+                <option value="">Đen</option>
+                <option value="">Xám</option>
+                <option value="">Gỗ</option>
+                <option value="">Khác</option>
+            </select>
+        </div>
+        <div class="menu-filter2">
+            <div class="icon-reload">
+                    <a href="#"><i class="fas fa-undo-alt"></i></a>
+                <div> Thiết Lập Lại </div>
+            </div>
+            <div class="icon-tim">
+                <button><a href="#"><i class="fas fa-search"></i></a></button>
+            </div>
+            
+        </div>
+    </div>
+    <div class="main">
+        <!-- <section class="picmota">
+            <a href="#"><img src="img/tabban/asama.jpg" alt=""></a>
+        </section> -->
+            <div class="head1">
+                <div class="container">
+                    <div class="img1">
+                        <img src="img/tabghe/anhghebalfour.jpg" alt="" srcset="">
+                    </div>
+                    <div class="img2">
+                        <img src="img/tabghe/gheBalfour.png" alt="" srcset="">
+                    </div>
+                </div>
+            <table>
+                <tr>
+                    <td>
+                        <p class="nameban">Balfour</p>
+                        <p class="title">Ghế balfour</p>
+                        <div class="main-icon1">
+                            <p class="price">30.000.000đ</p>
+                            <a href="#"><i class="far fa-heart"></i></a>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            </div>
+            <div class="head2">
+
+            </div>
+            <div class="list-ban1">
+                <table class="item">
+                    <tr>
+                        <td><img src="img/tabghe/anhghe1.png" alt="" srcset=""></td>
+                        <td><img src="img/tabghe/anhghe2.png" alt="" srcset=""></td>
+                        <td><img src="img/tabghe/anhghe3.png" alt="" srcset=""><td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="nameban">Bryan</p>
+                            <p class="title">Đôn Bryan</p>
+                            <div class="main-icon">
+                                <p class="price">1.900.000đ </p>
+                                <a href="#"><i class="far fa-heart"></i></a>
+                            </div>
+                        </td>
+                        <td>
+                            <p class="nameban" >Arnold</p>
+                            <p class="title">Ghế ăn arnold</p>
+                            <div class="main-icon">
+                                <p class="price">3.000.000đ</p>
+                                <a href="#"><i class="far fa-heart"></i></a>
+                            </div>
+                        </td>
+                        <td>
+                            <p class="nameban">Scandia</p>
+                            <p class="title">Ghế thư giãn Scandia</p>
+                            <div class="main-icon">
+                                <p class="price">7.500.000đ</p>
+                                <a href="#"><i class="far fa-heart"></i></a>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="list-ban1">
+                <table class="item">
+                    <tr>
+                        <td><img src="img/tabghe/anhghe4.png" alt="" srcset=""></td>
+                        <td><img src="img/tabghe/anhghe5.png" alt="" srcset=""></td>
+                        <td><img src="img/tabghe/anhghe6.png" alt="" srcset=""><td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="nameban">Eris</p>
+                            <p class="title">Ghế ăn Eris</p>
+                            <div class="main-icon">
+                                <p class="price">2.500.000đ</p>
+                                <a href="#"><i class="far fa-heart"></i></a>
+                            </div>
+                        </td>
+                        <td>
+                            <p class="nameban" >Storm</p>
+                            <p class="title">Ghế thư giãn Storm</p>
+                            <div class="main-icon">
+                                <p class="price">6.900.000đ</p>
+                                <a href="#"><i class="far fa-heart"></i></a>
+                            </div>
+                        </td>
+                        <td>
+                            <p class="nameban">Daisy</p>
+                            <p class="title">Ghế ăn Daisy</p>
+                            <div class="main-icon">
+                                <p class="price">3.500.000đ</p>
+                                <a href="#"><i class="far fa-heart"></i></a>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="list-ban1">
+                <table class="item">
+                    <tr>
+                        <td><img src="img/tabghe/anhghe7.png" alt="" srcset=""></td>
+                        <td><img src="img/tabghe/anhghe8.png" alt="" srcset=""></td>
+                        <td><img src="img/tabghe/anhghe9.png" alt="" srcset=""><td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="nameban">Cloe</p>
+                            <p class="title">Ghế thư giãn Cloe</p>
+                            <div class="main-icon">
+                                <p class="price">4.300.000đ</p>
+                                <a href="#"><i class="far fa-heart"></i></a>
+                            </div>
+                        </td>
+                        <td>
+                            <p class="nameban" >Minella</p>
+                            <p class="title">Ghế ăn minella</p>
+                            <div class="main-icon">
+                                <p class="price">2.500.000đ</p>
+                                <a href="#"><i class="far fa-heart"></i></a>
+                            </div>
+                        </td>
+                        <td>
+                            <p class="nameban">Clive</p>
+                            <p class="title">Ghế ăn Clive</p>
+                            <div class="main-icon">
+                                <p class="price">2.500.000đ</p>
+                                <a href="#"><i class="far fa-heart"></i></a>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="list-ban1">
+                <table class="item">
+                    <tr>
+                        <td><img src="img/tabghe/anhghe10.png" alt="" srcset=""></td>
+                        <td><img src="img/tabghe/anhghe11.png" alt="" srcset=""></td>
+                        <td><img src="img/tabghe/anhghe12.png" alt="" srcset=""><td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="nameban">Lima</p>
+                            <p class="title">Ghế ăn Lima</p>
+                            <div class="main-icon">
+                                <a href="#"><i class="far fa-heart"></i></a>
+                                <p class="price">2.500.000đ</p>
+                            </div>
+                        </td>
+                        <td>
+                            <p class="nameban" >Huntington</p>
+                            <p class="title">Ghế ăn Huntington</p>
+                            <div class="main-icon">
+                                <p class="price"> 2.800.000đ</p>
+                                <a href="#"><i class="far fa-heart"></i></a>
+                            </div>
+                        </td>
+                        <td>
+                            <p class="nameban">Aks</p>
+                            <p class="title">Ghế ăn Aks</p>
+                            <div class="main-icon">
+                                <p class="price">6.000.000đ</p>
+                                <a href="#"><i class="far fa-heart"></i></a>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="list-ban1">
+                <table class="item">
+                    <tr>   
+                        <td><img src="img/tabghe/anhghe13.png" alt="" srcset=""></td>
+                        <td><img src="img/tabghe/anhghe14.png" alt="" srcset=""></td>
+                        <td><img src="img/tabghe/anhghe15.png" alt="" srcset=""><td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="nameban">Candis</p>
+                            <p class="title">Bàn ăn Candis</p>
+                            <div class="main-icon">
+                                <p class="price">3.200.000đ</p>
+                                <a href="#"><i class="far fa-heart"></i></a>
+                            </div>
+                            
+                        </td>
+                        <td>
+                            <p class="nameban" >Oslo</p>
+                            <p class="title">Ghế ăn Oslo</p>
+                            <div class="main-icon">
+                                <p class="price"> 2.000.000đ</p>
+                                <a href="#"><i class="far fa-heart"></i></a>
+                            </div>
+                        </td>
+                        <td>
+                            <p class="nameban">Center</p>
+                            <p class="title">Ghế thư giãn Center</p>
+                            <div class="main-icon">
+                                <p class="price">4.200.000đ</p>
+                                <a href="#"><i class="far fa-heart"></i></a>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+
+            </div>
+            <div class="text-center">
+                <a href="#" class="btn">TẢI THÊM</a>
+            </div>
+    </div>
+
+    <footer class="footer">
+        <div class="row1">
+            <a href="./about-us.html">Giới thiệu</a>
+            <a href="./contact.html">Cửa hàng</a>
+            <a href="./tabdvkh.html">Dịch vụ khách hàng</a>
+        </div>
+
+        <div class="row2">
+            <a href="./chinhsachbaohanh.html">Chính sách bảo hành</a>
+            <a href="#">Bảo hành điện tử</a>
+            <a href="#">Hỏi đáp</a>
+            <a href="">Tuyển dụng</a>
+        </div>
+
+        <div class="social">
+            <a href="https://www.facebook.com/" class="social-face"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://www.instagram.com/" class="social-insta"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com/" class="social-youtube"><i class="fab fa-youtube"></i></a>
+        </div>
+
+        <div class="copyright">
+            <span>© HTN Concept 2021</span> 
+        </div>
+
+        <div class="div-backtop">
+            <div class="backtop" id="backtop" onclick="goToTop()">
+                <i class="fas fa-angle-up"></i>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

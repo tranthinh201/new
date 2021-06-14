@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/living-space.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link rel="shorcut icon" type="image/png" href="./img/logo.jpg">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+    <title>Tin tức</title>
+</head>
+<body>
+<header class="header__page">
+        <div class="nav__logo">
+            <a href="./index.html"><img src="./img/Chung/LOGO_CONCEPT_NEW.png" alt="Logo Team" title="Logo"></a>
+        </div>
+        <div class="nav__list-menu">
+            <ul class="list-menu">
+                <li><a href="./index.html">TRANG CHỦ</a></li>
+                <li>
+                    <a href="#">SẢN PHẨM</a>
+                    <ul class="list-menu-drop">
+                        <li>
+                            <div>
+                                <a href="./tabban.html">BÀN</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="./tabghe.html">GHẾ</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="./tabsofa.html">SOFA</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="./tabtu.html">TỦ</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="./tabgiuong.html">GIƯỜNG</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="./tabdtt.html">ĐỒ TRANG TRÍ</a>
+                            </div>
+                        </li>
+                    </ul>
+                    </li>
+                    <li><a href="./catalog.html">CATALOGUE</a></li>
+                        <li><a href="./tabduan.html">DỰ ÁN</a></li>
+                    <li>
+                        <a href="#"  id="underline">TIN TỨC</a>
+                        <ul class="list-menu-drop">
+                            <li>
+                                <div>
+                                    <a href="./news.html">TIN TỨC</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <a href="./living-space.html">KHÔNG GIAN SỐNG</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <a href="./promotion.html">KHUYẾN MẠI</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                <li><a href="./contact.html">LIÊN HỆ</a></li>
+            </ul>
+        <div class="list-icon">
+            <div class="search-bar" title="Tìm kiếm">
+                <a href="#"><i class="fas fa-search"></i></a>
+            </div>
+            <a href="./account.html" title="Đăng nhập"><i class="far fa-user"></i></a>
+            <a href="#"><i class="far fa-heart" title="Sản phẩm yêu thích"></i></a>
+            <a href="./cart.html" class="shopping-cart-a" title="Giỏ hàng">
+                <i class="fas fa-shopping-cart"></i>
+                    <!-- <div class="square-up">
+                        <i class="far fa-caret-square-up"></i>
+                    </div> -->
+                <div class="shopping-cart">
+                    <p>Tổng:200.000VND</p>
+                    <button onclick="location.href='./cart.html'" type="button">Xem giỏ hàng</button>
+                </div>
+            </a>
+            <label for="check__hidden"></label>
+            <li>
+                <label for="check__hidden">
+                    <i class="fas fa-bars menu-bar"></i>
+                </label>
+            </li>
+        </div>
+    </div>
+</header>
+    
+    <input type="checkbox" name="" id="check__hidden">
+        <div class="sidebar">
+            <ul class="list-menu-mobile">
+            <li><a href="./index.html">Trang Chủ</a></li>
+            <li>
+                <a href="#">Sản Phẩm</a>
+                <label for="check_menu_nw" class="check_menu-drop"><i class="fas fa-chevron-down"></i></label>
+                    <input type="checkbox" id="check_menu_nw">
+                <ul class="list-menu-drop-mobile">
+                    <li>
+                        <div>
+                            <a href="./news.html">Bàn</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="./living-space.html">Ghê</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="./promotion.html">Sofa</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="./promotion.html">Tủ</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="./promotion.html">Giường</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="./promotion.html">Đồ tang trí</a>
+                        </div>
+                    </li>
+                </ul>
+                </li>
+                <li><a href="./catalog.html">Catalogue</a></li>
+                <li><a href="./tabduan.html">Dự án</a></li>
+                <li>
+                    <a href="#">Tin Tức</a>
+                    <label for="check_menu" class="check_menu-drop"><i class="fas fa-chevron-down"></i></label>
+                    <input type="checkbox" id="check_menu">
+                    <ul class="list-menu-drop-mobile">
+                        <li>
+                            <div>
+                                <a href="./news.html">Tin Tức</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="./living-space.html">Tin tức</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="./promotion.html">Khuyến Mại</a>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="./contact.html">Liên Hệ</a></li>
+            </ul>
+        </div>
+    </>
+    
+    <div class="banner">
+        <div class="div-text">
+            <h1>Tin tức</h1>
+        </div>
+    </div>
+
+    <div class="content-news">
+        <h2>TIN TỨC HÀNG NGÀY VỀ SẢN PHẨM CỦA CHÚNG TÔI</h2>
+    </div>
+
+    <div class="main">
+        <div class="container">
+        <section class="sec-new">
+            <div class="row">
+                <div class="into-row">
+                    <div class="item">
+                        <a class="img"  href="#"><img src="./img/TinTức/TT_01.jpeg" alt="" srcset=""></a>
+                        <div class="da__text">
+                            <div class="meta">
+                                <div class="cate">
+                                    <span>Tin tức</span>
+                                </div>
+                                <span class="date">01/06/2021</span>
+                            </div>
+                            <h3 class="title"><a href="#">Dịch vụ thiết kế 3D miễn phí tại HTNConcept</a></h3>
+                            <div class="nd">
+                                <p>
+                                    Với tiêu chí nâng cao dịch vụ, trải nghiệm khách hàng, đội ngũ nhân viên tư vấn tại HTNConcept sẵn sàng giúp khách hàng chọn lựa những sản phẩm phù hợp nhất với từng không gian nội thất khác nhau. Dịch vụ thiết kế 3D miễn phí giúp khách hàng hình dung cụ thể cách bố trí, phối hợp các sản phẩm trong không gian thực tế, làm cho việc ra quyết định dễ dàng hơn bao giờ hết.
+                                </p>
+                            </div>
+                            <div class="more">
+                                <a href="#">Xem thêm <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="into-row">
+                    <div class="item">
+                        <a class="img" href="#"><img src="./img/TinTức/TT_02.jpeg" alt="" srcset=""></a>
+                        <div class="da__text">
+                            <div class="meta">
+                                <div class="cate">
+                                    <span>Tin tức</span>
+                                </div>
+                                <span class="date">01/06/2021</span>
+                            </div>
+                            <h3 class="title"><a href="#"> New collection 2020 - Những gam màu hiện đại cho phong cách sống mới</a></h3>
+                            <div class="nd">
+                                <p>
+                                    Với phương châm đồng hành cùng mọi người chăm chút cho tổ ấm, những gam màu tươi mới của bộ sưu tập 2020 sẽ giúp gia chủ kiến tạo không gian sống mới hiện đại, tiện nghi và đẹp đẽ để hưởng thụ cuộc sống ngay tại nhà cùng những người thân yêu.
+                                </p>
+                            </div>
+                            <div class="more">
+                                <a href="#">Xem thêm <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="into-row">
+                    <div class="item">
+                        <a class="img" href="#"><img src="./img/TinTức/TT_02_new.jpg" alt="" srcset=""></a>
+                        <div class="da__text">
+                            <div class="meta">
+                                <div class="cate">
+                                    <span>Tin tức</span>
+                                </div>
+                                <span class="date">31/05/2021</span>
+                            </div>
+                            <h3 class="title"><a href="#">AN CUONG INTERIOR DESIGN AWARD 2021</a></h3>
+                            <div class="nd">
+                                <p>
+                                    Với thông điệp “𝑺𝒕𝒐𝒓𝒚-𝒕𝒆𝒍𝒍𝒊𝒏𝒈 𝒕𝒉𝒓𝒐𝒖𝒈𝒉 𝒚𝒐𝒖𝒓 𝒔𝒑𝒂𝒄𝒆 – 𝑲𝒆̂̉ 𝒄𝒂̂𝒖 𝒄𝒉𝒖𝒚𝒆̣̂𝒏 𝒄𝒖̉𝒂 𝒃𝒂̣𝒏 𝒒𝒖𝒂 𝒌𝒉𝒐̂𝒏𝒈 𝒈𝒊𝒂𝒏 𝒏𝒐̣̂𝒊 𝒕𝒉𝒂̂́𝒕”, cùng tổng chi phí và giải thưởng lên đến 1.5 tỷ đồng, 𝑨𝒏 𝑪𝒖𝒐𝒏𝒈 𝑰𝒏𝒕𝒆𝒓𝒊𝒐𝒓 𝑫𝒆𝒔𝒊𝒈𝒏 𝑨𝒘𝒂𝒓𝒅 2021 hứa hẹn là một sân chơi vô cùng hấp dẫn cho những KTS và nhà thiết kế nội thất trẻ.
+                                </p>
+                            </div>
+                            <div class="more">
+                                <a href="#">Xem thêm <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="into-row">
+                    <div class="item">
+                        <a class="img" href="#"><img src="./img/TinTức/TT_03.jpg" alt="" srcset=""></a>
+                        <div class="da__text">
+                            <div class="meta">
+                                <div class="cate">
+                                    <span>Tin tức</span>
+                                </div>
+                                <span class="date">28/05/2021</span>
+                            </div>
+                            <h3 class="title"><a href="#">HTNConcept trên Zalo - Nhấn quan tâm và nhận ngay thông tin ưu đãi mới nhất</a></h3>
+                            <div class="nd">
+                                <p>
+                                    Quét mã QR theo dõi HTNConcept trên zalo ngay để mua hàng và nhận được những thông tin ưu đãi mới nhất của HTNConcept!
+                                </p>
+                            </div>
+                            <div class="more">
+                                <a href="#">Xem thêm <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="into-row">
+                    <div class="item">
+                        <a class="img" href="#"><img src="./img/TinTức/TT_06.png" alt="" srcset=""></a>
+                        <div class="da__text">
+                            <div class="meta">
+                                <div class="cate">
+                                    <span>Tin tức</span>
+                                </div>
+                                <span class="date">26/05/2021</span>
+                            </div>
+                            <h3 class="title"><a href="#">Khai trương Showroom HTNConcept tại khu đô thị Sala</a></h3>
+                            <div class="nd">
+                                <p>
+                                    Khám phá Nội thất HTNConcept tại hệ thống One-Stop Shopping Center An Cường, tại 39 Nguyễn Cơ Thạch, P. An Lợi Đông, Quận 2, Hồ Chí Minh (Khu Đô thị Sala). Hãy đến và trải nghiệm không gian trưng bày các giải pháp, vật liệu, thiết bị nhà bếp cao cấp kết hợp nội thất HTNConcept.
+                                </p>
+                            </div>
+                            <div class="more">
+                                <a href="#">Xem thêm <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="into-row">
+                    <div class="item">
+                        <a class="img" href="#"><img src="./img/TinTức/TT_04.jpg" alt="" srcset=""></a>
+                        <div class="da__text">
+                            <div class="meta">
+                                <div class="cate">
+                                    <span>Tin tức</span>
+                                </div>
+                                <span class="date">24/05/2021</span>
+                            </div>
+                            <h3 class="title"><a href="#"> Mẫu bàn ăn màu đen sang trọng từ thương hiệu HTNConcept</a></h3>
+                            <div class="nd">
+                                <p>
+                                    Trong thiết kế nội thất mỗi màu sắc đều mang một ý nghĩa, cảm giác khác nhau; nếu màu gỗ mang đến sự ấm cúng, mộc mạc, màu trắng mang vẻ tươi sáng, thông thoáng thì màu đen chính là biểu tượng của sự đẳng cấp, quyền lực. Bạn đang có ý định mua sắm chiếc bàn ăn cho gia đình thì mời bạn đọc bài viết sau đây của HTNConcept để có thêm nhiều thông tin thú vị cũng như chiêm ngưỡng những mẫu bàn ăn mang sắc đen lịch lãm đến từ
+                                </p>
+                            </div>
+                            <div class="more">
+                                <a href="#">Xem thêm <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </div>
+            <div class="text-center">
+                <a href="#" class="btn">TẢI THÊM</a>
+            </div>
+    </div>
+    
+    <div class="footer">
+        <div class="row1">
+            <a href="./about-us.html">Giới thiệu</a>
+            <a href="./contact.html">Cửa hàng</a>
+            <a href="./tabdvkh.html">Dịch vụ khách hàng</a>
+        </div>
+
+        <div class="row2">
+            <a href="./chinhsachbaohanh.html">Chính sách bảo hành</a>
+            <a href="#">Bảo hành điện tử</a>
+            <a href="#">Hỏi đáp</a>
+            <a href="#">Tuyển dụng</a>
+        </div>
+
+        <div class="social">
+            <a href="https://www.facebook.com/" class="social-face"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://www.instagram.com/" class="social-insta"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com/" class="social-youtube"><i class="fab fa-youtube"></i></a>
+        </div>
+
+        <div class="copyright">
+            <span>© HTNConcept 2021</span> 
+        </div>
+
+        <div class="div-backtop">
+            <div class="backtop" id="backtop" onclick="goToTop()">
+                <i class="fas fa-angle-up"></i>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

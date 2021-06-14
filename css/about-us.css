@@ -1,0 +1,153 @@
+.banner {
+    position: relative;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.banner h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 34px;
+    font-weight: 500;
+    color: white;
+}
+
+.about-us__text {
+    max-width: 800px;
+    margin: auto;
+}
+
+.about-us__text .content-abus {
+    font-size: 17px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.about-us__text h1 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.about-us__text p , .about-us__text-2 p{
+    padding-top: 20px;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.about-us__image {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    width: 80%;
+    margin: auto;
+}
+
+.about-us__image img{
+    width: 50%;
+}
+
+.about-us__text-2 {
+    width: 800px;
+    margin: auto;
+    padding-top: 40px;
+}
+
+.about-us__text-2 h2{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.about-us__image-2 {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.about-us__image-2 .img-left img{
+    height: 550px;  
+}
+
+.about-us__image-2 .img-right {
+    padding-left: 20px;
+}
+
+.about-us__image-2 .img-right img{
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.reason-choose {
+    margin-top: 60px;
+}
+
+.reason-choose__content {
+    font-size: 32px;
+    width: 800px;
+    margin: auto;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.reason-choose__coontainer {
+    display: flex;
+    width: 85%;
+    margin: auto;
+}
+
+.reason-choose .img__reason img{
+    width: 350px;
+    height: 100%;
+}
+
+
+.div-text__reason{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #6C6C6C;
+    justify-content: center;
+    padding: 40px;
+}
+
+.div-text__reason .item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: white;
+}
+
+.div-text__reason .item span {
+    margin-right: 10px;
+}
+
+.div-text__reason .text__content-reason {
+    font-size: 14px;
+    width: 350px;
+}
+
+.div-text__reason .right {
+    border-right: 1px solid white;
+}
+
+.div-text__reason .bottom {
+    border-bottom: 1px solid white;
+}
+
+
+@media screen and (max-width: 1535px) {
+    
+.div-text__reason .text__content-reason {
+    font-size: 14px;
+    width: 240px;
+}
+}
+
+
+

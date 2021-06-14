@@ -1,0 +1,229 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none !important;
+    box-sizing: border-box;
+    font-size: 16px; 
+     position: relative;
+}
+
+body {
+
+    width: auto;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    line-height: 1.7;
+    color: #000;  
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.filter
+{
+    background-color: white;
+    width: 1100px;
+    height: 85px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -30px;
+    display:flex;
+    border: 1px solid #C1C1C1;
+}
+.drop-op
+{
+    font-family: 'Open Sans', sans-serif;
+    width: auto;
+    font-size: 22px;
+    font-weight: 450;
+    letter-spacing: 0.5px;
+    line-height: 1.7;
+    color: #000;
+    border: none;
+    cursor: pointer;
+}
+.menu-filter{
+    padding:10px 0 0 10px;
+    margin-left: auto;
+    margin-right: auto;
+    /* border-left: 1px solid #e1e1e1; */
+}
+.menu-filter2
+{
+
+    border-left: 1px solid #C1C1C1;
+}
+.icon-tim {
+    display: flex;
+    width: 50px; 
+    /* height: 20px;*/
+    margin-left: -10px;
+    padding-left: 60px;
+    color: black;
+    /* background-color:aliceblue; */
+}
+.icon-reload a i
+{
+    color: black;
+}
+.icon-tim a i
+{
+    color: #000;
+}
+.icon-reload{
+    display:flex;
+    padding: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    text-align: center;
+    color: black;
+}
+
+.main
+{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 0px 30px;
+}
+
+/*ảnh banner*/
+.banner {
+    background-image: url("../img/tabgiuong/anhheadgiuong.jpeg");
+    width: 100%;
+    height: 360px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.banner h1{
+    position: absolute; 
+    top: 190px;
+    left: 50%;
+    transform: translateX(-50%);
+    /* text-align: center; */
+    text-transform: uppercase;
+    font-size: 37px;
+    color: white;
+    font-weight: normal;
+}
+/*main page*/
+.main
+{
+    margin-top:90px;
+    /* background-color: aliceblue; */
+    width: 100%;
+    height: fit-content;
+}
+.list-sofa1 td {
+    text-align: center;
+}
+.list-sofa1 img
+{
+    width: 50%;
+    margin: auto;
+    height: auto;
+    /* border: none; */
+    /* box-sizing: border-box; */
+    overflow: hidden;
+    transition: transform linear 0.1s;
+    /* border-radius: 20px; */
+    /* box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .1); */
+    will-change: transform;
+    cursor: pointer;
+}
+.list-sofa1 img:hover
+{
+    transform: translateY(-10px);
+}
+.list-sofa1 p
+{
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    /* font-family: sans-serif; */
+    /* color: #333; */
+    cursor: pointer;
+}
+.list-sofa1 .price
+{
+    color: #6C6C6C;
+    font-size: 15px;
+
+}
+.list-sofa1 .title
+{
+    margin-bottom: 0;
+    font-size: 15px;
+}
+.namesf
+{
+    color: inherit;
+    margin-bottom: 20px;
+    display: block;
+    font-weight: 500;
+    line-height: 1.22857143;
+    font-size: 25px;
+}
+.list-sofa1 .item
+{
+    margin-bottom: 30px;
+    padding-top: 30px;
+}.main-icon
+{
+    /* margin-left: 250px; */
+    font-size: 20px;
+    color: red;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.main-icon a {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+ .main-icon a i {
+    color:black;
+    /* padding-left: 254px; */
+    font-size: 20px;
+}
+ .main-icon a i:hover {
+    color:pink;
+}
+
+
+.text-center
+{
+    text-align: center;
+}
+.btn {
+    position: relative;
+    vertical-align: middle;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    overflow: hidden;
+    font-weight: 500;
+    font-size: 16px;
+    /* background-color: #13060600; */
+    border-radius: 0;
+    border: 1px solid #232323;
+    line-height: 38px;
+    height: 40px;
+    padding: 0 25px; 
+    color: #000;
+    transition: 0.3s background-color;
+}
+.text-center a:hover
+{
+    background-color: black;
+    color: white;
+}

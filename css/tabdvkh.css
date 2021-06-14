@@ -1,0 +1,204 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none !important;
+    box-sizing: border-box;
+    font-size: 16px; 
+     position: relative;
+}
+
+body {
+
+    width: auto;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    line-height: 1.7;
+    color: #000;  
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main
+{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 0px 30px;
+}
+
+/*ảnh banner*/
+.banner {
+    background-image: url("../img/tabduan/anhbannerduan.jpeg");
+    width: 100%;
+    height: 360px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.banner h1{
+    position: absolute; 
+    top: 190px;
+    left: 50%;
+    transform: translateX(-50%);
+    /* text-align: center; */
+    text-transform: uppercase;
+    font-size: 37px;
+    color: white;
+    font-weight: normal;
+}
+/*,main*/
+.container
+{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto
+}
+.max650
+{
+    max-width: 650px;
+    margin: 0 auto;
+}
+.rowdv
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.text-center
+{
+    text-transform: uppercase;
+    color: inherit;
+    margin-bottom: 20px;
+    display: block;
+    font-weight: 500;
+    line-height: 1.22857143;
+}
+h3
+{
+    margin-top: 50px;
+    font-size: 25px;
+}
+.p-left
+{
+    position: relative;
+    width: 50%;
+    padding-right: 25px;
+    padding-left: 15px;
+    font-size: 16px;
+}
+p
+{
+    margin: 0 0 20px;   
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px
+}
+.img-head
+{
+    width: 100%;
+}
+
+.sec-dki
+{
+    padding: 30px 0;
+}
+.row-into
+{
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+}
+.img-dki::before
+{
+    padding-top: 58%;
+
+}
+.img-dki
+{
+    width: 100%;
+    height: 587px;
+    margin-left: 40px;
+}
+
+.divtext
+{
+    padding: 50px;
+    border: 1px solid #979797;
+    padding-bottom: 160px;
+}
+.input
+{
+    position: relative;
+    width: 50%;
+    padding-right: 25px;
+    padding-left: 15px;
+
+}
+.divtext textarea
+{
+    height:90px;
+}
+.divtext input, .divtext textarea
+{
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid #979797;
+    background-color: #fff;
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+
+/*nút dăng kí*/
+.text-center
+{
+    text-align: center;
+}
+.btn {
+    position: relative;
+    vertical-align: middle;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    overflow: hidden;
+    font-weight: 500;
+    font-size: 16px;
+    /* background-color: #13060600; */
+    border-radius: 0;
+    border: 1px solid #232323;
+    line-height: 38px;
+    height: 40px;
+    padding: 0 35px; 
+    color: white;
+    transition: 0.3s background-color; 
+    margin-top: 120px;
+    margin-left: -90px;
+    background-color: black;
+}
+.text-center a:hover
+{
+    background-color: #b33939;
+}
+
+.underline::after
+{
+    content: "";
+    position: absolute;
+    height: 4px;
+    background: black;
+    width: 100%;
+    bottom: -35px;
+    left: 0;
+}

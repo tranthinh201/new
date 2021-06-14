@@ -1,0 +1,79 @@
+.banner {
+    background-image: url("../img/Chung/HOME_IMG.jpeg");
+    width: 100%;
+    height: 360px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.banner h1{
+    position: absolute; 
+    top: 190px;
+    left: 50%;
+    transform: translateX(-50%);
+    /* text-align: center; */
+    text-transform: uppercase;
+    font-size: 37px;
+    color: white;
+    font-weight: normal;
+}
+
+.container-cart {
+    display: flex;
+    height: 120px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 22px;
+    background: #485460;
+    padding: 0 300px;
+}
+
+.cart-row {
+    color: white;
+    padding: 14px 30px;
+    border-radius: 2px;
+    cursor: context-menu;
+    font-weight: 500;
+    position: relative;
+}
+
+.order::before {
+    content: "";
+    border-bottom: 3px solid #ffff;
+    position: absolute;
+    width: 100%;
+    top: 70px;
+    left: 0;
+}
+
+.infor-cart {
+    margin: 40px 0;
+}
+
+.content-cart {
+    margin: 20px 0;
+}
+
+.infor-cart .content-cart {
+    font-size: 38px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.infor-cart .no-cart a {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    border: 1px solid #333;
+    margin-left: 120px;
+}
+
+.infor-cart .no-cart a:hover {
+    color: white;
+    background-color: #4bcffa;
+    border-color: #4bcffa;
+    transition: 200ms linear;
+}

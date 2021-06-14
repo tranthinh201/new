@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/living-space.css">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link rel="shorcut icon" type="image/png" href="./img/logo.jpg">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+    <title>Không gian sống</title>
+</head>
+<body>
+<header class="header__page">
+        <div class="nav__logo">
+            <a href="./index.html"><img src="./img/Chung/LOGO_CONCEPT_NEW.png" alt="Logo Team" title="Logo"></a>
+        </div>
+        <div class="nav__list-menu">
+            <ul class="list-menu">
+                <li><a href="./index.html">TRANG CHỦ</a></li>
+                <li>
+                    <a href="#">SẢN PHẨM</a>
+                    <ul class="list-menu-drop">
+                        <li>
+                            <div>
+                                <a href="./tabban.html">BÀN</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="./tabghe.html">GHẾ</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="./tabsofa.html">SOFA</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="./tabtu.html">TỦ</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="./tabgiuong.html">GIƯỜNG</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="./tabdtt.html">ĐỒ TRANG TRÍ</a>
+                            </div>
+                        </li>
+                    </ul>
+                    </li>
+                    <li><a href="./catalog.html">CATALOGUE</a></li>
+                    <li><a href="./tabduan.html">DỰ ÁN</a></li>
+                    <li>
+                        <a href="#"  id="underline">TIN TỨC</a>
+                        <ul class="list-menu-drop">
+                            <li>
+                                <div>
+                                    <a href="./news.html">TIN TỨC</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <a href="./living-space.html">KHÔNG GIAN SỐNG</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <a href="./promotion.html">KHUYẾN MẠI</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                <li><a href="./contact.html">LIÊN HỆ</a></li>
+            </ul>
+        <div class="list-icon">
+            <div class="search-bar" title="Tìm kiếm">
+                <a href="#"><i class="fas fa-search"></i></a>
+            </div>
+            <a href="./account.html" title="Đăng nhập"><i class="far fa-user"></i></a>
+            <a href="#"><i class="far fa-heart" title="Sản phẩm yêu thích"></i></a>
+            <a href="./cart.html" class="shopping-cart-a" title="Giỏ hàng">
+                <i class="fas fa-shopping-cart"></i>
+                    <!-- <div class="square-up">
+                        <i class="far fa-caret-square-up"></i>
+                    </div> -->
+                <div class="shopping-cart">
+                    <p>Tổng:200.000VND</p>
+                    <button onclick="location.href='./cart.html'" type="button">Xem giỏ hàng</button>
+                </div>
+            </a>
+            <label for="check__hidden"></label>
+            <li>
+                <label for="check__hidden">
+                    <i class="fas fa-bars menu-bar"></i>
+                </label>
+            </li>
+        </div>
+    </div>
+</header>
+    
+    <input type="checkbox" name="" id="check__hidden">
+        <div class="sidebar">
+            <ul class="list-menu-mobile">
+            <li><a href="./index.html">Trang Chủ</a></li>
+            <li>
+                <a href="#">Sản Phẩm</a>
+                <label for="check_menu_nw" class="check_menu-drop"><i class="fas fa-chevron-down"></i></label>
+                    <input type="checkbox" id="check_menu_nw">
+                <ul class="list-menu-drop-mobile">
+                    <li>
+                        <div>
+                            <a href="./news.html">Bàn</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="./living-space.html">Ghê</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="./promotion.html">Sofa</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="./promotion.html">Tủ</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="./promotion.html">Giường</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="./promotion.html">Đồ tang trí</a>
+                        </div>
+                    </li>
+                </ul>
+                </li>
+                <li><a href="./catalog.html">Catalogue</a></li>
+                <li><a href="./tabduan.html">Không gian sống</a></li>
+                <li>
+                    <a href="#">Tin Tức</a>
+                    <label for="check_menu" class="check_menu-drop"><i class="fas fa-chevron-down"></i></label>
+                    <input type="checkbox" id="check_menu">
+                    <ul class="list-menu-drop-mobile">
+                        <li>
+                            <div>
+                                <a href="./news.html">Tin Tức</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="./living-space.html">Không Gian Sống</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="./promotion.html">Khuyến Mại</a>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="./contact.html">Liên Hệ</a></li>
+            </ul>
+        </div>
+    </>
+    
+    <div class="banner">
+        <div class="div-text">
+            <h1>Không gian sống</h1>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="container">
+        <section class="sec-new">
+            <div class="row">
+                <div class="into-row">
+                    <div class="item">
+                        <a class="img"  href="#"><img src="./img/Living-Space/LV_1.jpeg" alt="" srcset=""></a>
+                        <div class="da__text">
+                            <div class="meta">
+                                <div class="cate">
+                                    <span>Không gian sống</span>
+                                </div>
+                                <span class="date">01/06/2021</span>
+                            </div>
+                            <h3 class="title"><a href="#">Sáng tạo không gian dùng bữa theo cá tính gia chủ</a></h3>
+                            <div class="nd">
+                                <p>
+                                    Không gian sống đẹp mang đến cảm giác thư thái nhẹ nhàng, phòng ăn ấn tượng giúp bữa cơm trọn vẹn, ấm áp và cũng là cách ta trân trọng bản thân, yêu thương những thành viên trong gia đình. Mỗi cách kết hợp bàn và ghế ăn hợp lý sẽ biến nơi dùng bữa của gia đình trở nên sống động, tràn đầy cảm hứng. Bài viết dưới đây sẽ gợi ý 3 cách kết hợp bàn ăn thông minh Milano với những kiểu ghế tạo phong cách riêng biệt cho gia chủ!
+                                </p>
+                            </div>
+                            <div class="more">
+                                <a href="#">Xem thêm <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="into-row">
+                    <div class="item">
+                        <a class="img" href="#"><img src="./img/Living-Space/LV_2.jpeg" alt="" srcset=""></a>
+                        <div class="da__text">
+                            <div class="meta">
+                                <div class="cate">
+                                    <span>Không gian sống</span>
+                                </div>
+                                <span class="date">01/06/2021</span>
+                            </div>
+                            <h3 class="title"><a href="#">Đón giáng sinh an lành với những mẫu ghế bàn ăn ấn tượng</a></h3>
+                            <div class="nd">
+                                <p>
+                                    Giáng sinh là một trong những nét đặc trưng của văn hóa người Phương Tây. Tuy nhiên, trong những năm gần đây với sự du nhập văn hóa rộng rãi, nó đã trở thành lễ hội được nhiều nước Phương Đông hưởng ứng và mong chờ. Để đón mùa lễ hội đặc sắc này, bên cạnh việc trang trí cho phòng khách, phòng ngủ thì phòng ăn cũng cần được đầu tư bằng những món đồ nội thất phù hợp nhằm mang không khí Noel ngập tràn cả căn nhà. Nhằm
+                                </p>
+                            </div>
+                            <div class="more">
+                                <a href="#">Xem thêm <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="into-row">
+                    <div class="item">
+                        <a class="img" href="#"><img src="./img/Living-Space/LV_3.jpeg" alt="" srcset=""></a>
+                        <div class="da__text">
+                            <div class="meta">
+                                <div class="cate">
+                                    <span>Không gian sống</span>
+                                </div>
+                                <span class="date">31/05/2021</span>
+                            </div>
+                            <h3 class="title"><a href="#">Sợ góc cạnh không an toàn, hãy chọn ngay những mẫu bàn ăn oval</a></h3>
+                            <div class="nd">
+                                <p>
+                                    Những bàn ăn chữ nhật là lựa chọn phổ biến của nhiều gia đình bởi không gian rộng rãi khi bày biện cho bữa cơm gia đình. Tuy nhiên, nhiều gia chủ lại e ngại góc cạnh của những mẫu bàn ăn này sẽ vô tình gây đau cho các thành viên, đặc biệt trẻ nhỏ khi chẳng may va chạm phải. Những nỗi lo lắng này sẽ nhanh chóng trở thành hư vô với những mẫu bàn ăn mặt oval dưới đây. Không chỉ đảm bảo an toàn cho trẻ nhỏ mà nhiều thiết kế bàn ăn
+                                </p>
+                            </div>
+                            <div class="more">
+                                <a href="#">Xem thêm <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="into-row">
+                    <div class="item">
+                        <a class="img" href="#"><img src="./img/Living-Space/LV_4.jpeg" alt="" srcset=""></a>
+                        <div class="da__text">
+                            <div class="meta">
+                                <div class="cate">
+                                    <span>Không gian sống</span>
+                                </div>
+                                <span class="date">28/05/2021</span>
+                            </div>
+                            <h3 class="title"><a href="#">Xua tan cái lạnh mùa đông với những món đồ nội thất đẹp</a></h3>
+                            <div class="nd">
+                                <p>
+                                    Tháng 12 gõ cửa dường như kéo theo tiết trời se lạnh của mùa đông tràn về. Vào những ngày cuối năm, bầu trời cũng kém phần tươi tắn khiến cho không khí trở nên lạnh lẽo và ảm đạm hơn. Để góp phần xua đi cảm giác giá rét cùng gam màu u tối đó, có lẽ cách tốt nhất chính là tân trang lại ngôi nhà bằng những món đồ nội thất đẹp. Hãy cùng HTNConcept đi tìm những món đồ nội thất bạn nên mua cho tổ ấm của mình trong mùa đông năm nay
+                                </p>
+                            </div>
+                            <div class="more">
+                                <a href="#">Xem thêm <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="into-row">
+                    <div class="item">
+                        <a class="img" href="#"><img src="./img/Living-Space/LV_5.jpeg" alt="" srcset=""></a>
+                        <div class="da__text">
+                            <div class="meta">
+                                <div class="cate">
+                                    <span>Không gian sống</span>
+                                </div>
+                                <span class="date">26/05/2021</span>
+                            </div>
+                            <h3 class="title"><a href="#">Sức hút lạ kỳ từ bàn ăn thông minh Stephen</a></h3>
+                            <div class="nd">
+                                <p>
+                                    Nếu như phòng khách được coi là bộ mặt của không gian sống thì phòng ăn ví như "trái tim" của căn nhà. Đây chính là không gian chứng kiến sự quây quần, sum tụ của mọi gia đình sau những ngày dài bươn chải, học tập. Thế nên, trang trí phòng ăn thêm ấm áp và hiện đại chính là cách gia chủ thể hiện sự yêu chiều bản thân và quan tâm đến mọi thành viên trong gia đình. Với Stephen - mẫu bàn ăn thông minh HTNConcept chắc chắn sẽ giúp
+                                </p>
+                            </div>
+                            <div class="more">
+                                <a href="#">Xem thêm <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="into-row">
+                    <div class="item">
+                        <a class="img" href="#"><img src="./img/Living-Space/LV_6.jpeg" alt="" srcset=""></a>
+                        <div class="da__text">
+                            <div class="meta">
+                                <div class="cate">
+                                    <span>Không gian sống</span>
+                                </div>
+                                <span class="date">24/05/2021</span>
+                            </div>
+                            <h3 class="title"><a href="#"> Mẫu bàn ăn màu đen sang trọng từ thương hiệu HTNConcept</a></h3>
+                            <div class="nd">
+                                <p>
+                                    Trong thiết kế nội thất mỗi màu sắc đều mang một ý nghĩa, cảm giác khác nhau; nếu màu gỗ mang đến sự ấm cúng, mộc mạc, màu trắng mang vẻ tươi sáng, thông thoáng thì màu đen chính là biểu tượng của sự đẳng cấp, quyền lực. Bạn đang có ý định mua sắm chiếc bàn ăn cho gia đình thì mời bạn đọc bài viết sau đây của HTNConcept để có thêm nhiều thông tin thú vị cũng như chiêm ngưỡng những mẫu bàn ăn mang sắc đen lịch lãm đến từ
+                                </p>
+                            </div>
+                            <div class="more">
+                                <a href="#">Xem thêm <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="into-row">
+                    <div class="item">
+                        <a class="img" href="#"><img src="./img/Living-Space/LV_7.jpeg" alt="" srcset=""></a>
+                        <div class="da__text">
+                            <div class="meta">
+                                <div class="cate">
+                                    <span>Không gian sống</span>
+                                </div>
+                                <span class="date">22/05/2021</span>
+                            </div>
+                            <h3 class="title"><a href="#"> 5 mẫu sofa vải nâng tầm không gian phòng khách</a></h3>
+                            <div class="nd">
+                                <p>
+                                    Đã bao giờ bạn tự hỏi tại sao cùng sử dụng sofa vải trong bài trí phòng khách, không ít không gian tăng thêm vẻ lộng lẫy, nhưng lại có nơi tiếp khách trở nên luộm thuộm? Hiệu quả làm đẹp bằng sofa đều giống nhau, sự khác biệt đến từ cách lựa chọn mẫu sofa phù hợp với kiểu dáng và phong cách nội thất hiện hữu của phòng khách. Với gợi ý từ 5 mẫu sofa vải dưới đây, phòng khách của gia đình sẽ trở nên ấm áp và hiện đại.
+                                </p>
+                            </div>
+                            <div class="more">
+                                <a href="#">Xem thêm <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="into-row">
+                    <div class="item">
+                        <a class="img" href="#"><img src="img/tabduan/anhduan8.jpeg" alt="" srcset=""></a>
+                        <div class="da__text">
+                            <div class="meta">
+                                <div class="cate">
+                                    <span>Không gian sống</span>
+                                </div>
+                                <span class="date">24/04/2021</span>
+                            </div>
+                            <h3 class="title"><a href="#">Tại sao chiếc bàn ăn hình chữ nhật lại được yêu chuộng đến như vậy? </a></h3>
+                            <div class="nd">
+                                <p>
+                                    Nếu dành chút thời gian để quan sát thì bạn sẽ dễ dàng nhận ra rằng hầu hết những nơi bạn ghé qua, chiếc bàn ăn hình chữ nhật chính là kiểu dáng phổ biến nhất. Rất nhiều gia chủ chọn loại bàn này cho căn bếp nhỏ xinh của mình. Vậy điều gì khiến nó trở thành chiếc bàn ăn “quốc dân” đón nhận được nhiều cảm tình của người tiêu dùng đến như vậy? Hãy cùng tìm hiểu thông qua bài viết sau đây của HTNConcept nhé!
+                                </p>
+                            </div>
+                            <div class="more">
+                                <a href="#">Xem thêm <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </div>
+            <div class="text-center">
+                <a href="#" class="btn">TẢI THÊM</a>
+            </div>
+    </div>
+    
+    <footer class="footer">
+        <div class="row1">
+            <a href="./about-us.html">Giới thiệu</a>
+            <a href="./contact.html">Cửa hàng</a>
+            <a href="./tabdvkh.html">Dịch vụ khách hàng</a>
+        </div>
+
+        <div class="row2">
+            <a href="./chinhsachbaohanh.html">Chính sách bảo hành</a>
+            <a href="#">Bảo hành điện tử</a>
+            <a href="#">Hỏi đáp</a>
+            <a href="">Tuyển dụng</a>
+        </div>
+
+        <div class="social">
+            <a href="https://www.facebook.com/" class="social-face"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://www.instagram.com/" class="social-insta"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com/" class="social-youtube"><i class="fab fa-youtube"></i></a>
+        </div>
+
+        <div class="copyright">
+            <span>© HTNConcept 2021</span> 
+        </div>
+
+        <div class="div-backtop">
+            <div class="backtop" id="backtop" onclick="goToTop()">
+                <i class="fas fa-angle-up"></i>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

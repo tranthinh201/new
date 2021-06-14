@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <!-- <link rel="shorcut icon" type="image/png" href="./img/ICON+PAGE.png"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+    <title>Trang chủ</title>
+</head>
+<body>
+<header class="header__page">
+    <div class="nav__logo">
+        <a href="./index.html"><img src="./img/Chung/LOGO_CONCEPT_NEW.png" alt="Logo Team" title="Logo"></a>
+    </div>
+    <div class="nav__list-menu">
+        <ul class="list-menu">
+            <li><a href="./index.html"  id="underline">TRANG CHỦ</a></li>
+            <li>
+                <a href="#">SẢN PHẨM</a>
+                <ul class="list-menu-drop">
+                    <li>
+                        <div>
+                            <a href="./tabban.html">BÀN</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="./tabghe.html">GHẾ</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="./tabsofa.html">SOFA</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="./tabtu.html">TỦ</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="./tabgiuong.html">GIƯỜNG</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="./tabdtt.html">ĐỒ TRANG TRÍ</a>
+                        </div>
+                    </li>
+                </ul>
+                </li>
+                <li><a href="./catalog.html">CATALOGUE</a></li>
+                    <li><a href="./tabduan.html">DỰ ÁN</a></li>
+                <li>
+                    <a href="#">TIN TỨC</a>
+                    <ul class="list-menu-drop">
+                        <li>
+                            <div>
+                                <a href="./news.html">TIN TỨC</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="./living-space.html">KHÔNG GIAN SỐNG</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="./promotion.html">KHUYẾN MẠI</a>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+            <li><a href="./contact.html">LIÊN HỆ</a></li>
+        </ul>
+        <div class="list-icon">
+            <div class="search-bar" title="Tìm kiếm">
+                <a href="#"><i class="fas fa-search"></i></a>
+            </div>
+            <a href="./account.html" title="Đăng nhập"><i class="far fa-user"></i></a>
+            <a href="#"><i class="far fa-heart" title="Sản phẩm yêu thích"></i></a>
+            <a href="./cart.html" class="shopping-cart-a" title="Giỏ hàng">
+                <i class="fas fa-shopping-cart"></i>
+                    <!-- <div class="square-up">
+                        <i class="far fa-caret-square-up"></i>
+                    </div> -->
+                <div class="shopping-cart">
+                    <p>Tổng:200.000VND</p>
+                    <button onclick="location.href='./cart.html'" type="button">Xem giỏ hàng</button>
+                </div>
+            </a>
+            <label for="check__hidden"></label>
+            <li>
+                <label for="check__hidden">
+                    <i class="fas fa-bars menu-bar"></i>
+                </label>
+            </li>
+        </div>
+    </div>
+</header>
+
+<input type="checkbox" name="" id="check__hidden">
+    <div class="sidebar">
+        <ul class="list-menu-mobile">
+        <li><a href="./index.html">Trang Chủ</a></li>
+        <li>
+            <a href="#">Sản Phẩm</a>
+            <label for="check_menu_nw" class="check_menu-drop"><i class="fas fa-chevron-down"></i></label>
+                <input type="checkbox" id="check_menu_nw">
+            <ul class="list-menu-drop-mobile">
+                <li>
+                    <div>
+                        <a href="./news.html">Bàn</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a href="./living-space.html">Ghê</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a href="./promotion.html">Sofa</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a href="./promotion.html">Tủ</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a href="./promotion.html">Giường</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a href="./promotion.html">Đồ tang trí</a>
+                    </div>
+                </li>
+            </ul>
+            </li>
+            <li><a href="./catalog.html">Catalogue</a></li>
+            <li><a href="./tabduan.html">Dự án</a></li>
+            <li>
+                <a href="#">Tin Tức</a>
+                <label for="check_menu" class="check_menu-drop"><i class="fas fa-chevron-down"></i></label>
+                <input type="checkbox" id="check_menu">
+                <ul class="list-menu-drop-mobile">
+                    <li>
+                        <div>
+                            <a href="./news.html">Tin Tức</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="./living-space.html">Không Gian Sống</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="./promotion.html">Khuyến Mại</a>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="./contact.html">Liên Hệ</a></li>
+        </ul>
+    </div>
+</.>
+
+    
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+        <img src="./img/Chung/SLIDE_1.jpeg" style="width:100%">
+        <div class="text"><span>GIẢM GIÁ 5% KHI MUA SOFA</span></div>
+        <div class="mySLides__buy">
+            <a href="./tabban.html">MUA NGAY</a>
+        </div>
+    </div>
+        
+    <div class="mySlides fade">
+        <img src="./img/Chung/SLIDE_2.jpeg" style="width:100%">
+        <div class="text"><span>GIẢM ĐẾN 20% KHI MUA THEO COMBO</span> </div>
+        <div class="mySLides__buy">
+            <a href="./tabban.html">MUA NGAY</a>
+        </div>
+    </div>
+        
+    <div class="mySlides fade">
+        <img src="./img/Chung/SLIDE_3.jpeg" style="width:100%">
+        <div class="text"><span>GIẢM 20% KHI MUA THEO BỘ</span></div>
+        <div class="mySLides__buy">
+            <a href="./tabban.html">MUA NGAY</a>
+        </div>
+    </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    
+</div>
+        <br>
+        
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+
+        <script src="./Javascript/main.js"></script>
+
+
+        <div class="product">
+            <div class="product-view product-1">
+            <img src="./img/Chung/IMAGE_SOFA.jpeg" alt="">
+            <div class="product-see-more">
+                <h2 class="name-product">
+                    SOFA
+                </h2>
+                <p><a href="./tabsofa.html">Xem thêm</a></p>
+            </div>
+            <div class="product-infor">
+                <span>
+                SOFA
+                </span> 
+            </div>
+        </div>
+        <div class="product-view product-2">
+            <img src="./img/Chung/IMAGE_CHAIR.jpeg" alt="">
+            <div class="product-see-more">
+                <h2 class="name-product">
+                    Ghế
+                </h2>
+                <p><a href="./tabghe.html">Xem thêm</a></p> 
+            </div>
+            <div class="product-infor">
+                <span>
+                Ghế
+                </span> 
+            </div>
+        </div>
+        <div class="product-view product-3">
+            <img src="./img/Chung/IMAGE_TABLE.jpeg" alt="">
+            <div class="product-see-more">
+                <h2 class="name-product">
+                    Bàn
+                </h2>
+                <p><a href="./tabban.html">Xem thêm</a></p>
+            </div>
+            <div class="product-infor">
+                <span>
+                    Bàn
+                </span> 
+            </div>
+        </div>
+        <div class="product-view product-4">
+            <img src="./img/Chung/IMAGE_BED.jpeg" alt="">
+            <div class="product-see-more">
+                <h2 class="name-product">
+                    Giường
+                </h2>
+            <p><a href="./tabgiuong.html">Xem thêm</a></p>
+            </div>
+            <div class="product-infor">
+                <span>
+                    Giường
+                </span> 
+            </div>
+        </div>
+    </div>
+
+
+    <div class="blog-single-1">
+        <div class="blog-container">
+            <div class="blog-left">
+                <h4>Giới thiệu về</h4>
+                <h1>HTNConcept</h1>
+                <p>Việc ra đời của HTNConcept là cả quá trình đúc kết, tìm hiểu về đặc thù của từng loại không gian và các xu hướng sở thích khác nhau từ người sử dụng. Những nghiên cứu kỹ lưỡng đó được kết hợp khéo léo cùng tài năng của các nhà thiết kế nổi tiếng Châu Âu, tạo nên dòng sản phẩm trang trí, đồ nội thất đẹp có độ ứng dụng cao với nhiều loại hình không gian khác nhau. Gần gũi và ấm cúng cho nhà ở; cởi mở và thời trang cho khách sạn, năng động khi sử dụng cho văn phòng, phong thái từ các thiết kế của HTNConcept luôn tạo được sức hút bởi tính đa chiều trong cảm xúc mà chúng mang lại cho không gian.</p>
+                <div class="sec-more efch-5 ef-tx-t">
+                    <a class="readmore" href="#">
+                        Tìm hiểu thêm <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="blog-image">
+                <img src="./img/Chung/HOME_IMG.jpeg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="blog-single-2">
+        <div class="blog-container-2">
+            <div class="blog-left">
+                <h4>KHÔNG GIAN SỐNG BẮC ÂU</h4>
+                <h1>Scandinavian style</h1>
+                <p>Đất nước Đan Mạch ghi dấu trong mọi lĩnh vực từ nghệ thuật, kiến trúc, khoa học công nghệ, bề dày lịch sử cho đến phúc lợi xã hội. Những thành tựu đó đã tạo nên nền tảng vững chắc để đảm bảo cho nhịp sống thanh bình, biết trân trọng các giá trị chân thực và luôn sáng tạo để mang đến những điều tốt đẹp cho cuộc sống. Đặc biệt hơn nữa, yếu tố tinh thần này luôn thể hiện rõ nét trong từng góc sống, từng tổ ấm của người dân nơi đây.Đất nước Đan Mạch ghi dấu trong mọi lĩnh vực từ nghệ thuật, kiến trúc, khoa học công nghệ, bề dày lịch sử cho đến phúc lợi xã hội. Những thành tựu đó đã tạo nên nền tảng vững chắc để đảm bảo cho nhịp sống thanh bình, biết trân trọng các giá trị chân thực và luôn sáng tạo để mang đến những điều tốt đẹp cho cuộc sống. Đặc biệt hơn nữa, yếu tố tinh thần này luôn thể hiện rõ nét trong từng góc sống, từng tổ ấm của người dân nơi đây.</p>
+                <div class="sec-more efch-5 ef-tx-t">
+                    <a class="readmore" href="#">
+                        Tìm hiểu thêm <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="blog-image-2">
+                <img src="./img/Chung/HOME-2.jpeg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="register">
+        <div class="icon-email">
+            <img src="./img/Chung/gmail.svg" alt="Ảnh email">
+        </div>
+        <h1>Đăng ký để nhận ưu đãi hấp dẫn tại HTNConcept</h1>
+        <div class="register-email">
+            <input type="email" name="email" id="email-home" placeholder="email của bạn...">
+            <button onclick="checkEmailHome()">ĐĂNG KÝ</button>
+        </div>
+        <span id="check-email"></span>
+    </div>
+
+    <footer class="footer">
+        <div class="row1">
+            <a href="./about-us.html">Giới thiệu</a>
+            <a href="./contact.html">Cửa hàng</a>
+            <a href="./tabdvkh.html">Dịch vụ khách hàng</a>
+        </div>
+
+        <div class="row2">
+            <a href="./chinhsachbaohanh.html">Chính sách bảo hành</a>
+            <a href="#">Bảo hành điện tử</a>
+            <a href="#">Hỏi đáp</a>
+            <a href="">Tuyển dụng</a>
+        </div>
+
+        <div class="social">
+            <a href="https://www.facebook.com/" class="social-face" title="Facebook"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://www.instagram.com/" class="social-insta" title="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com/" class="social-youtube" title="Youtube"><i class="fab fa-youtube"></i></a>
+        </div>
+
+        <div class="copyright">
+            <span>© HTNConcept 2021</span> 
+        </div>
+
+        <div class="div-backtop">
+            <div class="backtop" id="backtop" onclick="goToTop()" title="Nhấn vào để quay lại đầu trang">
+                <i class="fas fa-angle-up"></i>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

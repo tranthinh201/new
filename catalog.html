@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/catalogue.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link rel="shorcut icon" type="image/png" href="./img/ICON+PAGE.png">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+    <title>Catalogue</title>
+</head>
+<body>
+<header class="header__page">
+    <div class="nav__logo">
+        <a href="./index.html"><img src="./img/Chung/LOGO_CONCEPT_NEW.png" alt="Logo Team" title="Logo"></a>
+    </div>
+    <div class="nav__list-menu">
+        <ul class="list-menu">
+            <li><a href="./index.html">TRANG CHỦ</a></li>
+            <li>
+                <a href="#">SẢN PHẨM</a>
+                <ul class="list-menu-drop">
+                    <li>
+                        <div>
+                            <a href="./tabban.html">BÀN</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="./tabghe.html">GHẾ</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="./tabsofa.html">SOFA</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="./tabtu.html">TỦ</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="./tabgiuong.html">GIƯỜNG</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="./tabdtt.html">ĐỒ TRANG TRÍ</a>
+                        </div>
+                    </li>
+                </ul>
+                </li>
+                <li><a href="./catalog.html"   id="underline">CATALOGUE</a></li>
+                    <li><a href="./tabduan.html">DỰ ÁN</a></li>
+                <li>
+                    <a href="#">TIN TỨC</a>
+                    <ul class="list-menu-drop">
+                        <li>
+                            <div>
+                                <a href="./news.html">TIN TỨC</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="./living-space.html">KHÔNG GIAN SỐNG</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="./promotion.html">KHUYẾN MẠI</a>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+            <li><a href="./contact.html">LIÊN HỆ</a></li>
+        </ul>
+    <div class="list-icon">
+        <div class="search-bar" title="Tìm kiếm">
+            <a href="#"><i class="fas fa-search"></i></a>
+        </div>
+        <a href="./account.html" title="Đăng nhập"><i class="far fa-user"></i></a>
+        <a href="#"><i class="far fa-heart" title="Sản phẩm yêu thích"></i></a>
+        <a href="./cart.html" class="shopping-cart-a" title="Giỏ hàng">
+            <i class="fas fa-shopping-cart"></i>
+                <!-- <div class="square-up">
+                    <i class="far fa-caret-square-up"></i>
+                </div> -->
+            <div class="shopping-cart">
+                <p>Tổng:200.000VND</p>
+                <button onclick="location.href='./cart.html'" type="button">Xem giỏ hàng</button>
+            </div>
+        </a>
+            <label for="check__hidden"></label>
+            <li>
+                <label for="check__hidden">
+                    <i class="fas fa-bars menu-bar"></i>
+                </label>
+            </li>
+        </div>
+    </div>
+</header>
+
+<input type="checkbox" name="" id="check__hidden">
+    <div class="sidebar">
+        <ul class="list-menu-mobile">
+        <li><a href="./index.html">Trang Chủ</a></li>
+        <li>
+            <a href="#">Sản Phẩm</a>
+            <label for="check_menu_nw" class="check_menu-drop"><i class="fas fa-chevron-down"></i></label>
+                <input type="checkbox" id="check_menu_nw">
+            <ul class="list-menu-drop-mobile">
+                <li>
+                    <div>
+                        <a href="./news.html">Bàn</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a href="./living-space.html">Ghê</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a href="./promotion.html">Sofa</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a href="./promotion.html">Tủ</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a href="./promotion.html">Giường</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a href="./promotion.html">Đồ tang trí</a>
+                    </div>
+                </li>
+            </ul>
+            </li>
+            <li><a href="./catalog.html">Catalogue</a></li>
+            <li><a href="./tabduan.html">Dự án</a></li>
+            <li>
+                <a href="#">Tin Tức</a>
+                <label for="check_menu" class="check_menu-drop"><i class="fas fa-chevron-down"></i></label>
+                <input type="checkbox" id="check_menu">
+                <ul class="list-menu-drop-mobile">
+                    <li>
+                        <div>
+                            <a href="./news.html">Tin Tức</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="./living-space.html">Không Gian Sống</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="./promotion.html">Khuyến Mại</a>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="./contact.html">Liên Hệ</a></li>
+        </ul>
+    </div>
+</header>
+
+<div class="banner">
+    <div class="div-text">
+        <h1>Catalogue</h1>
+    </div>
+</div>
+<main class="main">
+    <div class="containner">
+        <section class="sec-cata">
+            <div class="item">
+                <div class="row center grid">
+                    <div class="p-left">
+                        <div class="img-left">
+                            <img src="img/tabcata/a1.png" alt="" srcset="">
+                        </div>
+                    </div>
+                    <div class="p-left">
+                        <div class="divtext">
+                            <div class="t1">new catalogue</div>
+                            <h2 class="title">từ phong cách bắc âu đến tổ ấm thành thị việt nam</h2>
+                            <div class="t2">Năm: 2021</div>
+                            <div class="t3">Thông tin chi tiết</div>
+                            <div class="t4">
+                               <p class="text-catallogue">
+                                Mang đến sự kết hợp của các sản phẩm nội thất nổi bật phong cách Bắc Âu của HTNConcept đến tổ ấm thành thị Việt Nam. Tận hưởng sự chỉn chu và phong cách tối giản để nâng cao chất lượng không gian sống trong ngôi nhà của bạn.
+                               </p>
+                            </div>
+                            <div class="text-center">
+                                <a href="#" class="btn">Tải về</a>
+                                <a href="#" class="btn2"><i class="fab fa-facebook-square"></i>Chia sẻ</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="containner">
+        <section class="sec-cata">
+            <div class="item">
+                <div class="row center grid">
+                    <div class="p-left">
+                        <div class="img-left">
+                            <img src="img/tabcata/a2.jpeg" alt="" srcset="">
+                        </div>
+                    </div>
+                    <div class="p-left">
+                        <div class="divtext">
+                            <div class="t1">catalogue</div>
+                            <h2 class="title">autumn 2020</h2>
+                            <div class="t2">Năm: 2020</div>
+                            <div class="t3">Thông tin chi tiết</div>
+                            <div class="t4">
+                               <p class="text-catallogue">
+                                HTN-Concept cho ra mắt những sản phẩm nội thất mới trong bộ sưu tập Autumn 2020. Hãy cùng khám phá những ý tưởng sắp đặt nội thất hiện đại, mang phong cách Bắc Âu tinh tế thông qua quyển catalogue này!
+                               </p>
+                            </div>
+                            <div class="text-center">
+                                <a href="#" class="btn">Tải về</a>
+                                <a href="#" class="btn2"><i class="fab fa-facebook-square"></i>Chia sẻ</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="containner">
+        <section class="sec-cata">
+            <div class="item">
+                <div class="row center grid">
+                    <div class="p-left">
+                       <div class="divtext">
+                            <div class="t1">cảm hứng</div>
+                            <h2 class="title">sắp đặt nội thất hiện đại</h2>
+                            <div class="t2">Năm: 2020</div>
+                            <div class="t3">Thông tin chi tiết</div>
+                            <div class="t4">
+                               <p class="text-catallogue">
+                                Lấy cảm hứng từ cuộc sống hiện đại, năng động đang có nhiều thay đổi ở các đô thị của Việt Nam, HTNConcept Vietnam cho ra đời cuốn Catalogue này nhằm cung cấp cho khách hàng nhiều sự lựa chọn, những gợi ý sắp đặt nội thất hoàn chỉnh và tinh tế, mang đến sự hài lòng cho khách hàng
+                               </p>
+                            </div>
+                            <div class="text-center">
+                                <a href="#" class="btn">Tải về</a>
+                                <a href="#" class="btn2"><i class="fab fa-facebook-square"></i>Chia sẻ</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-left">
+                        <div class="img-left">
+                            <img class="img-right" src="img/tabcata/a3.jpeg" alt="" srcset="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="containner">
+        <section class="sec-cata">
+            <div class="item">
+                <div class="row center grid">
+                    <div class="p-left">
+                        <div class="img-left">
+                            <img src="img/tabcata/a4.jpeg" alt="" srcset="">
+                        </div>
+                    </div>
+                    <div class="p-left">
+                        <div class="divtext">
+                            <div class="t1">niềm đam mê</div>
+                            <h2 class="title">đến từ trải nghiệm</h2>
+                            <div class="t2">Năm: 2020</div>
+                            <div class="t3">Thông tin chi tiết</div>
+                            <div class="t4">
+                               <p class="text-catallogue">
+                                Với tình yêu đặc biệt dành cho nội thất, đến với AConcept là đến với một tinh thần Đan Mạch chân thực, đồng thời trải nghiệm về các không gian sống mang đậm chất Bắc Âu phóng khoáng mà đơn giản, tối giản mà hữu dụng. Hãy để chúng tôi đồng hành cùng bạn tạo nên một không gian sống chứa đựng những ký ức tuyệt vời nhất.
+                               </p>
+                            </div>
+                            <div class="text-center">
+                                <a href="#" class="btn">Tải về</a>
+                                <a href="#" class="btn2"><i class="fab fa-facebook-square"></i>Chia sẻ</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="containner">
+        <section class="sec-cata">
+            <div class="item">
+                <div class="row center grid">
+                    <div class="p-left">
+                       <div class="divtext">
+                            <div class="t1">catalogue</div>
+                            <h2 class="title">hành trình của htnoncept</h2>
+                            <div class="t2">Năm: 2019</div>
+                            <div class="t3">Thông tin chi tiết</div>
+                            <div class="t4">
+                               <p class="text-catallogue">
+                                Tỉ mỉ trong từng chi tiết, tinh tế từng loại chất liệu, các thiết kế của Aconcept không chỉ đáp ứng yêu cầu cần có về công năng, thẩm mỹ mà còn thể hiện lối sống, phong cách của gia chủ. Khách hàng của AConcept là những người yêu thích phong cách sống sôi động của thành thị và luôn tìm kiếm yếu tố thẩm mỹ trong mọi khía cạnh của cuộc sống.
+                               </p>
+                            </div>
+                            <div class="text-center">
+                                <a href="#" class="btn">Tải về</a>
+                                <a href="#" class="btn2"><i class="fab fa-facebook-square"></i>Chia sẻ</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-left">
+                        <div class="img-left">
+                            <img class="img-right" src="img/tabcata/a5.jpeg" alt="" srcset="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="containner">
+        <section class="sec-cata2">
+            <h3>danh mục catalogue</h3>
+            <div class="item-cata">
+                <div class="in-cata">
+                    <ul class="li-cata">
+                        <li class="fot"><img src="img/tabcata/a5.jpeg" alt="" srcset="">2019</li>
+                        <li class="fot"><img src="img/tabcata/a3.jpeg" alt="">2020</li>
+                        <li class="fot"><img src="img/tabcata/a2.jpeg" alt="" srcset="">2020</li>
+                        <li class="fot"><img src="img/tabcata/a1.png" alt="" srcset="">2021</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+</main>
+
+    <footer class="footer">
+        <div class="row1">
+            <a href="./about-us.html">Giới thiệu</a>
+            <a href="./contact.html">Cửa hàng</a>
+            <a href="./tabdvkh.html">Dịch vụ khách hàng</a>
+        </div>
+
+        <div class="row2">
+            <a href="./chinhsachbaohanh.html">Chính sách bảo hành</a>
+            <a href="#">Bảo hành điện tử</a>
+            <a href="#">Hỏi đáp</a>
+            <a href="">Tuyển dụng</a>
+        </div>
+
+        <div class="social">
+            <a href="https://www.facebook.com/" class="social-face" title="Facebook"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://www.instagram.com/" class="social-insta" title="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com/" class="social-youtube" title="Youtube"><i class="fab fa-youtube"></i></a>
+        </div>
+
+        <div class="copyright">
+            <span>© HTN Concept 2021</span> 
+        </div>
+
+        <div class="div-backtop">
+            <div class="backtop" id="backtop" onclick="goToTop()" title="Nhấn vào để quay lại đầu trang">
+                <i class="fas fa-angle-up"></i>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

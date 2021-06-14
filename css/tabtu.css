@@ -1,0 +1,313 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none !important;
+    box-sizing: border-box;
+    font-size: 16px; 
+    position: relative;
+}
+
+
+body {
+
+    width: auto;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    line-height: 1.7;
+    color: #000;  
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+/*lọc sản phẩm*/
+.filter
+{
+    background-color: white;
+    width: 1100px;
+    height: 85px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -30px;
+    display:flex;
+    border: 1px solid #C1C1C1;
+    
+}
+.drop-op
+{
+    font-family: 'Open Sans', sans-serif;
+    width: auto;
+    font-size: 22px;
+    font-weight: 450;
+    letter-spacing: 0.5px;
+    line-height: 1.7;
+    color: #000;
+    border: none;
+    cursor: pointer;
+}
+.menu-filter{
+    padding:10px 0 0 10px;
+    margin-left: auto;
+    margin-right: auto;
+    /* border-left: 1px solid #e1e1e1; */
+}
+.menu-filter2
+{
+
+    border-left: 1px solid #C1C1C1;
+}
+.icon-tim {
+    display: flex;
+    width: 50px; 
+    /* height: 20px;*/
+    margin-left: -10px;
+    padding-left: 60px;
+    color: black;
+    /* background-color:aliceblue; */
+}
+.icon-reload a i
+{
+    color: black;
+}
+.icon-tim a i
+{
+    color: #000;
+}
+.icon-reload{
+    display:flex;
+    padding: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    text-align: center;
+    color: black;
+}
+.icon2 img{
+    height: 30px;
+    width: 30px;
+    
+}
+
+/*ảnh banner*/
+.banner {
+    background-image: url("../img/tabtu/anhheadtu.jpeg");
+    width: 100%;
+    height: 360px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.banner h1{
+    position: absolute; 
+    top: 190px;
+    left: 50%;
+    transform: translate(-50%);
+    text-transform: uppercase;
+    font-size: 37px;
+    color: white;
+    font-weight: normal;
+}
+/*main page*/
+.main
+{
+    margin-top:90px;
+    /* background-color: aliceblue; */
+    width: 100%;
+    height: fit-content;
+}
+
+.list-ban1 td {
+    text-align: center;
+}
+
+.list-ban1 img
+{
+    width: 50%;
+    margin: auto;
+    height: auto;
+
+    /* border: none; */
+    /* box-sizing: border-box; */
+    overflow: hidden;
+    transition: transform linear 0.1s;
+    /* border-radius: 20px; */
+    /* box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .1); */
+    will-change: transform;
+    cursor: pointer;
+    
+}
+.list-ban1 img:hover
+{
+    transform: translateY(-10px);
+}
+.list-ban1 p
+{
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    /* font-family: sans-serif; */
+    /* color: #333; */
+    cursor: pointer;
+}
+.list-ban1 .price
+{
+    color: #6C6C6C;
+    font-size: 15px;
+}
+.list-ban1 .title
+{
+    margin-bottom: 0;
+    font-size: 15px;
+}
+.nameban
+{
+    color: inherit;
+    margin-bottom: 20px;
+    display: block;
+    font-weight: 500;
+    line-height: 1.22857143;
+    font-size: 25px;
+}
+.list-ban1 .item
+{
+    margin-bottom: 30px;
+    padding-top: 30px;
+}
+.main-icon
+{
+    /* margin-left: 250px; */
+    font-size: 20px;
+    color: red;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.main-icon a {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.main-icon a i {
+    color: black;
+}
+
+.main-icon a i:hover {
+    color:pink;
+}
+
+
+/* ảnh và sp nổi bật */
+.head1 img:hover
+{
+    transform: translateY(-5px);
+}
+.head1 p
+{
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    /* font-family: sans-serif; */
+    /* color: #333; */
+    cursor: pointer;
+}
+.head1 .price
+{
+    color: #6C6C6C;
+    font-size: 15px;
+    margin-left: 850px;
+    margin-top: 10px;
+}
+.head1 .title
+{
+    margin-left: 850px;
+    margin-bottom: 0;
+}
+.main-icon1
+{
+    margin-left: 950px;
+    font-size: 20px;
+    position: relative;
+    top:80px;
+    position: absolute;
+}
+.main-icon1 a i
+{
+    color: black;
+}
+.main-icon1 a i:hover {
+    color:pink;
+}
+.head1 .nameban
+{
+    margin-left: 850px;
+}
+
+.container 
+{
+    display: flex;
+}
+
+.container  img {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    /* box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .1); */
+    cursor: pointer;
+}
+.img2
+{
+    margin-top: 250px;
+    width: 45%;
+    margin-left: 170px;
+}
+.img1
+{
+    width: 35%;
+    margin-left: 30px;
+    
+}
+.a1
+{
+    margin-top: -40px;
+    margin-bottom: 30px;
+}
+.text-center
+{
+    text-align: center;
+}
+
+/* nút xem thêm */
+.btn 
+{
+    position: relative;
+    vertical-align: middle;
+    display: inline-block;
+    text-align: center;
+    /* cursor: pointer; */
+    text-decoration: none;
+    /* -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out; */
+    overflow: hidden;
+    font-weight: 500;
+    font-size: 16px;
+    /* background-color: #13060600; */
+    border-radius: 0;
+    border: 1px solid #232323;
+    line-height: 38px;
+    height: 40px;
+    padding: 0 25px; 
+    color: #000;
+    transition: 0.3s background-color;
+}
+.text-center a:hover
+{
+    background-color: black;
+    color: white;
+}
+

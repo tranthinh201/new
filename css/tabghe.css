@@ -1,0 +1,325 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none !important;
+    box-sizing: border-box;
+    font-size: 16px; 
+    position: relative;
+}
+
+
+body {
+    width: auto;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    line-height: 1.7;
+    color: #000;  
+    font-family: 'Open Sans', sans-serif;
+}
+
+.filter
+{
+    background-color: white;
+    width: 1100px;
+    height: 85px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -30px;
+    display:flex;
+    border: 1px solid #C1C1C1;
+}
+.drop-op
+{
+    color: #232323;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+}
+.menu-filter{
+    padding:10px 0 0 10px;
+    margin-left: auto;
+    margin-right: auto;
+    /* border-left: 1px solid #e1e1e1; */
+}
+.menu-filter2
+{
+
+    border-left: 1px solid #C1C1C1;
+}
+.icon-tim {
+    display: flex;
+    width: 50px; 
+    /* height: 20px;*/
+    margin-left: -10px;
+    padding-left: 60px;
+    color: black;
+    /* background-color:aliceblue; */
+}
+.icon-reload a i
+{
+    color: black;
+}
+.icon-tim a i
+{
+    color: #000;
+}
+.icon-reload{
+    display:flex;
+    padding: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    text-align: center;
+    color: black;
+}
+.icon2 img{
+    height: 30px;
+    width: 30px;
+    
+}
+
+/*ảnh banner*/
+.banner {
+    background-image: url("../img/tabghe/anhheadghe.jpeg");
+    width: 100%;
+    height: 360px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.banner h1{
+    position: absolute; 
+    top: 190px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-transform: uppercase;
+    font-size: 37px;
+    color: white;
+    font-weight: normal;
+}
+/*main page*/
+.main
+{
+    margin-top:90px;
+    /* background-color: aliceblue; */
+    width: 100%;
+    height: fit-content;
+}
+
+.list-ban1 td {
+    text-align: center;
+}
+
+.list-ban1 img
+{
+    width: 50%;
+    margin: auto;
+    height: auto;
+
+    /* border: none; */
+    /* box-sizing: border-box; */
+    overflow: hidden;
+    transition: transform linear 0.1s;
+    /* border-radius: 20px; */
+    /* box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .1); */
+    will-change: transform;
+    cursor: pointer;
+    
+}
+.list-ban1 img:hover
+{
+    transform: translateY(-5px);
+}
+.list-ban1 p
+{
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    /* font-family: sans-serif; */
+    /* color: #333; */
+    cursor: pointer;
+}
+.list-ban1 .price
+{
+    color: #6C6C6C;
+    font-size: 15px;
+}
+.list-ban1 .title
+{
+    margin-bottom: 0;
+}
+.nameban
+{
+    color: inherit;
+    margin-bottom: 20px;
+    display: block;
+    font-weight: 500;
+    line-height: 1.22857143;
+    font-size: 25px;
+}
+.list-ban1 .item
+{
+    margin-bottom: 30px;
+    padding-top: 30px;
+}
+.main-icon
+{
+    /* margin-left: 250px; */
+    font-size: 20px;
+    color: red;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.main-icon a {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.main-icon a i {
+    color: black;
+}
+
+.main-icon a:hover {
+    color:pink;
+}
+.picmota img
+{
+    /* font-size: 50px; */
+    width: 550px;
+    height: auto;
+    margin-left: 50px;
+    /* margin-top: 30px; */
+}
+.head1 table img
+{
+    width: 30%;
+    height: auto;
+    padding: 5px;
+    margin-left: 650px;
+    margin-bottom: 30px;
+    position: relative;
+    display: inline-block;
+    /* padding-bottom: 200px; */
+    box-sizing: border-box;
+    overflow: hidden;
+    transition: transform linear 0.1s;
+    border-radius: 20px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .1);
+    will-change: transform;
+    cursor: pointer;
+
+} 
+.head1 img:hover
+{
+    transform: translateY(-5px);
+}
+.head1 p
+{
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    /* font-family: sans-serif; */
+    /* color: #333; */
+    cursor: pointer;
+}
+.head1 .price
+{
+    color: #6C6C6C;
+    font-size: 15px;
+    margin-left: 850px;
+    margin-top: 10px;
+}
+.head1 .title
+{
+    font-size: 15px;
+    margin-left: 850px;
+    margin-bottom: 0;
+}
+.main-icon1
+{
+    /* margin-left: 980px; */
+    display: flex;
+    font-size: 20px;
+    position: relative;
+    top:80px;
+    color: red;
+    position: absolute;
+}
+.main-icon1 a i
+{
+    margin-top: 10px;
+    margin-left: 10px;
+    color: black;
+}
+.main-icon1 a i:hover {
+    color:pink;
+}
+.head1 .nameban
+{
+    margin-left: 850px;
+}
+
+.container {
+    display: flex;
+}
+
+.container  img {
+    margin-left: 0;
+    border-radius: 0px;
+    height: 300px;
+}
+.img2
+{
+    width: 50%;
+    height: 285px;
+    padding: 5px;
+    margin-left: 130px;
+    /* margin-bottom: 30px; */
+    position: relative;
+    /* display: inline-block; */
+    /* padding-bottom: 200px; */
+    box-sizing: border-box;
+    overflow: hidden;
+    transition: transform linear 0.1s;
+    border-radius: 10px;
+    /* box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .1); */
+    will-change: transform;
+    cursor: pointer;
+}
+.text-center
+{
+    text-align: center;
+}
+.btn {
+    position: relative;
+    vertical-align: middle;
+    display: inline-block;
+    text-align: center;
+    /* cursor: pointer; */
+    text-decoration: none;
+    /* -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out; */
+    overflow: hidden;
+    font-weight: 500;
+    font-size: 16px;
+    /* background-color: #13060600; */
+    border-radius: 0;
+    border: 1px solid #232323;
+    line-height: 38px;
+    height: 40px;
+    padding: 0 25px; 
+    color: #000;
+    transition: 0.3s background-color;
+}
+.text-center a:hover
+{
+    background-color: black;
+    color: white;
+}
+

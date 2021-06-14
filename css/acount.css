@@ -1,0 +1,193 @@
+.content {
+    text-align: center;
+    padding-top: 120px;
+    font-size: 28px;
+    font-weight: 900;
+}
+
+.infor-user {
+    margin: auto;
+    width: 1000px;
+    padding-top: 60px;
+}
+
+.form-login .left-image img {
+    height: 100%;
+    overflow: hidden;
+}
+
+.form-login {
+    display: flex;
+    border: 1px solid gray;
+    height: 620px;
+}
+
+.form-user-login {
+    align-items: center;
+    color: gray;
+    font-size: 20px;
+    padding: 40px 70px;
+    width: 512px;
+    height: 100%;
+}
+.input-email, .input-password{
+    display: grid;
+    margin-bottom: 10px;
+}
+
+.input-email span, .input-password span {
+    margin-bottom: 5px;
+}
+
+.input-email input, .input-password input {
+    padding: 12px;
+    border: none;
+    border-bottom: 1px solid #333;
+    outline: none;
+}
+
+.remember-login {
+    padding: 12px;
+}
+
+.login {
+    text-align: center;
+}
+
+.login button {
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: context-menu;
+    padding: 5px 25px;
+}
+
+.login button:hover {
+    background: #b33939;
+}
+
+.forget-password {
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    cursor: context-menu;
+    border-bottom: 2px;
+}
+
+.forget-password:hover{
+    color: #b33939;
+}
+
+
+
+.forget-password a {
+    color: gray;
+    padding: 14px;
+    text-decoration: none;
+}
+
+.social-login {
+    display: grid;
+    text-align: center;
+}
+
+.social-login p {
+    padding-bottom: 10px;
+}
+
+.social-login a {
+    padding: 10px;
+    text-decoration: none;
+    margin-bottom: 16px;
+}
+
+.social-login .social-login-facebook {
+    border: 1px solid #607fbe;
+    color: #607fbe;
+    line-height: 1.4;
+}
+
+.social-login .social-login-facebook:hover {
+    background-color: #607fbe;
+    color: white;
+    border: 1px solid #607fbe;
+    transition: all 0.9s ease;
+}   
+
+.social-login .social-login-google {
+    border: 1px solid #CC615B;
+    color: #CC615B;
+}
+
+.social-login .social-login-google:hover {
+    background-color: #9D0E01;
+    color: white;
+    border: 1px solid #9D0E01;
+    transition: all 0.9s ease;
+}
+
+.create-account {
+    padding: 20px;
+    background-color: rgb(128, 155, 206);
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 10px;
+    border: 1px solid gray
+}
+
+.create-account a {
+    text-decoration: none;
+    color: white;
+}
+
+.create-account a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+
+
+
+
+@media screen and (max-width: 416px) {
+    .content {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    
+    .infor-user {
+        margin: auto;
+        width: auto;
+        padding: 60px 20px 0 20px;
+    }
+    
+    .form-login .left-image img {
+        display: none;
+    }
+    
+    .form-login {
+        display: flex;
+        border: 1px solid gray;
+        height: auto;
+    }
+    
+    .form-user-login {
+        margin-top: 20px;
+        font-size: 18px;
+        padding: 10px 30px;
+    }
+
+    .forget-password {
+        padding: 18px;
+    }
+
+    
+    .create-account {
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+    
+}
+
